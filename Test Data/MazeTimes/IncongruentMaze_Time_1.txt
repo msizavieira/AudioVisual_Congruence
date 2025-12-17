@@ -1,0 +1,3 @@
+FirstCheckpoint= 00:02:17.368
+LastCheckpoint= 00:03:03.526
+End= 00:03:33.452
