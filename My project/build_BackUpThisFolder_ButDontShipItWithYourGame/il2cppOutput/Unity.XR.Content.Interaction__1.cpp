@@ -1,0 +1,5908 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R, typename T1>
+struct InterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct Action_1_tB8CA4FD5AE31D22DB74D262F9D03ACFA1C0B2CA8;
+struct Action_1_tCB862C932EAF49C2968D3AD96CEDF6D2DFED41F0;
+struct Action_1_tBE7729820CBA793D8D5D57207BA5938B012863C5;
+struct Action_1_t9A06C49FCB3ADF4C984887951A3DC1DA07CFFBF0;
+struct BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C;
+struct Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA;
+struct Dictionary_2_t522560DA508EF51110C996AF2055A26B22C7426D;
+struct Dictionary_2_tA13026C91A8E0CE5AB55DC00628A33C71D2BE3F2;
+struct Dictionary_2_t2FB52A1C9A5EF3BE7F06D41CF41259B9A0296ABC;
+struct Dictionary_2_t1A8FC8C012681D4B964E7A8A383FD3E718078AE9;
+struct Dictionary_2_tBF02F25A38E519F312D7EF1C8B204EBDC91AB9A1;
+struct Dictionary_2_t9B20C3EBA931E014FB6496226DAB71B59F7CC4EC;
+struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
+struct ExposedRegistrationList_1_t11A438A04DF188A3BE1950639AAF0CBFAF9065A5;
+struct ExposedRegistrationList_1_t7932F633A860258335FD94BBFDE46AC92B1CF84B;
+struct ExposedRegistrationList_1_t0AF641D8E06922C1FFAF3DA223105F57CE5BC4D8;
+struct Func_3_t3C59F9322C032EF2EC419F9538F86DFC0F4B1421;
+struct HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2;
+struct HashSetList_1_tCF3541C1916DB23E3E8D3E2D2C675B59FE3ACBAF;
+struct HashSetList_1_tCE34B4C28F58D67E795B058A35AD8A457BFB1175;
+struct HashSetList_1_tF3CBA0C6731B032420F2FEC573A03EE7A351CBC4;
+struct HashSetList_1_t1A0488B6A7A99FC77B3DC8ADC7C241B5B2F21789;
+struct HashSetList_1_t85FA4F6EDCA9A84D235398F53ED390EE2CE4DC98;
+struct HashSetList_1_tC0FA4922B36F37C46BA57A5B55C8B0A1FF78D9A2;
+struct HashSet_1_t109CCE87260348881F7ED50EEE3FFD003542DC8B;
+struct IEqualityComparer_1_t8D8C89E4D924FCD39585C554B4153947A1AD185C;
+struct KeyCollection_tB9C5F54E05F7DD71F7D57ED37FC284CDA4BF95BA;
+struct LinkedPool_1_t99CFF33CB8085652A0F2FC6579D0388FB3CBAA01;
+struct LinkedPool_1_t0F5C109EA19EF35798DEF24B63645919D0B7B53B;
+struct List_1_t7502D52CB2BF34D36AA992A3C5EFC8E834CB215A;
+struct List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252;
+struct List_1_t4D55B31174BDF30C8D05A7FC6C010069F06BD3BC;
+struct List_1_tC3F61ED5D2119F6F6D5E7C5F5662CB782CCD0724;
+struct List_1_t96062976A34EF744BABF4798339ADC3741F0CF6C;
+struct List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3;
+struct List_1_t488784C52679764AD0C4F820CDD5C10973C9FC9D;
+struct List_1_t6AC1E63E8A7AEC25512ADBCAD6FAFB856A230C09;
+struct List_1_t15F57185D4B9071FE0789904F8EC54114E4F8D6D;
+struct UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906;
+struct UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B;
+struct UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A;
+struct UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B;
+struct UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E;
+struct UnityEvent_1_tF375C8038EBFFA6D72A05014787BE5CDB0A95008;
+struct UnityEvent_1_t4B30B07A73CFB8205961561C2945408585355F26;
+struct UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205;
+struct UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8;
+struct UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B;
+struct UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4;
+struct ValueCollection_t7F3B6DFB66C532ADCF3FC10914E7852FA60AFAEB;
+struct ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA;
+struct XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5;
+struct XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0;
+struct EntryU5BU5D_t207AC0B0B72E598B4101B27C12E6CECA87C6E1EA;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8;
+struct float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45;
+struct ActionBasedController_tB9D8E7E013191571EA5507EA68057414B6969A68;
+struct ActivateEvent_tA1D392B588AC99958CB847AE6911DC5131BCFB43;
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
+struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct DeactivateEvent_tFE44262C3D8377F947FD46D4561BB9DAC7E0785D;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct FocusEnterEvent_tF5369B418FFFBE1C6FDE6EBDDD8B9E412A32CD90;
+struct FocusExitEvent_tFAE8003B7B5A47FB4D9C5BB14D7A3273AF8931AE;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct HapticImpulsePlayer_tE153B969F453F119AF5B0D808FBA94D026A54A58;
+struct HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB;
+struct HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E;
+struct HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832;
+struct HoverExitEventArgs_tFFBECDDAF90BF90AA3B7282FAEF1D8E5D19A5AD6;
+struct IXRHoverInteractor_t2BC0873850544D16673EAE16AFFA2E8FF92E50BE;
+struct IXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609;
+struct IXRInteractionGroup_tE179A88275A6C646BAC9BF131BDE92552FC664C0;
+struct IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97;
+struct IXRSelectInteractable_t647A7E3382497396EA1A9546574AEC0FBC9BC4AF;
+struct IXRSelectInteractor_tF89F25345282BDE348CC5A11BBACE44810BD29CC;
+struct IXRTargetFilter_t51750E0C671ECA90F38CC75BCD395285E61D2778;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct MethodInfo_t;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct RegisteredUIInteractorCache_t81419313AA113B206AF3FF94CD9D3B64A09CE413;
+struct SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0;
+struct SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938;
+struct SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6;
+struct SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A;
+struct SimpleAudioFeedback_tF566C7044568575261BDCE78F2AF162675710B74;
+struct SimpleHapticFeedback_t87E1E96B335ECBB5206B34437E25F65F200BE9D6;
+struct String_t;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77;
+struct UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298;
+struct UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B;
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct XRBaseController_t44C1BB30A7E1D279DD2508F34D3352B33A9AD60C;
+struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4;
+struct XRBaseTargetFilter_t24D9DBCEA900DFEA08D543C91DFC070C1C91594F;
+struct XRController_t928E104C899E51FDE12C0A8AC68874587C46C28F;
+struct XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515;
+struct XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD;
+struct XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126;
+struct XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510;
+struct XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3;
+struct XRScreenSpaceController_t046F18C2FE01EB347832DB82D42C84131771FF17;
+struct XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51;
+struct LogicalInputState_tC8869ADC07CFDF5E60D09DC140CC05EF0227843A;
+struct ValueChangeEvent_t392051F7A8D00C8652081F922180C02CA3043150;
+struct ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17;
+struct PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C;
+struct ValueChangeEvent_t6ABB63D6EC8E3745851A79F2AA32B8550933F214;
+struct RaycastHitComparer_tFAAC0D68E449ACF3BDD05D50F8CC6BEFF2B33B33;
+struct ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD;
+
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m02AA5CDD34AC664726505A362E8733340BAE6410_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_mB7F77F5BCF183D3803194FB248BD80DE73FB6937_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m268F093D61B7FEDB0D0F36F35985D41DEC9E6430_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Count_m4A33E8EB457ABC12877C3022843C5C1E98ABD04A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Values_mC0B53B07465A1D46383EBE00A066BBC51A915945_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m6E8A7996911878F82C01EEFB8D0E555EF19CED24_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m8987A1CA8F76050CE11D3609C83FE388918398CA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mC40C4FCCF3AFE6ED01AE797C9B1141F1841CF44E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m171EFC9F72CB58EDA4139097DDCA155A3D9C7D33_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ValueCollection_GetEnumerator_mE79662250CA098A7D61E56787F832285D9E49875_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRKnob_EndGrab_m5895C8F96BCD0988A398D02433A2A71759A7D604_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRKnob_StartGrab_m2C4B91DD007ABB767E6E9302875B7EFEEAC49463_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRLever_EndGrab_m1B9DA5DD2083DBC832CF4BB25FC1739B52872021_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRLever_StartGrab_m3546A1894506795A821042FABC3328880357FB4A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRPushButton_EndHover_mDE942B9C5F9E34BFA025F383C0DFFDF108868BAB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRPushButton_StartHover_m9483BD357F3CB7CA4380BFAA8CB7D42D0AEA2D44_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRSlider_EndGrab_mA9D239E474FB31C0D6909D28B51FAA0A6F2147D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRSlider_StartGrab_m48F19B86B4802EE3275548105AE49B7F3C5CEF0E_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_t207AC0B0B72E598B4101B27C12E6CECA87C6E1EA* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tB9C5F54E05F7DD71F7D57ED37FC284CDA4BF95BA* ____keys;
+	ValueCollection_t7F3B6DFB66C532ADCF3FC10914E7852FA60AFAEB* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct ValueCollection_t7F3B6DFB66C532ADCF3FC10914E7852FA60AFAEB  : public RuntimeObject
+{
+	Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* ____dictionary;
+};
+struct U3CPrivateImplementationDetailsU3E_t113A43D993E1B4E33718EA9668FCC74828DD67FC  : public RuntimeObject
+{
+};
+struct BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E  : public RuntimeObject
+{
+	RuntimeObject* ___U3CinteractorObjectU3Ek__BackingField;
+	RuntimeObject* ___U3CinteractableObjectU3Ek__BackingField;
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C  : public RuntimeObject
+{
+	RuntimeObject* ___m_Interactor;
+	bool ___m_InPressRegion;
+	bool ___m_WrongSide;
+};
+struct Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A 
+{
+	Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* ____dictionary;
+	int32_t ____index;
+	int32_t ____version;
+	PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* ____currentValue;
+};
+struct Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB 
+{
+	Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* ____dictionary;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____currentValue;
+};
+struct UnityEvent_1_tF375C8038EBFFA6D72A05014787BE5CDB0A95008  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_1_t4B30B07A73CFB8205961561C2945408585355F26  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E  : public BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E
+{
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___U3CmanagerU3Ek__BackingField;
+};
+struct HoverExitEventArgs_tFFBECDDAF90BF90AA3B7282FAEF1D8E5D19A5AD6  : public BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E
+{
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___U3CmanagerU3Ek__BackingField;
+	bool ___U3CisCanceledU3Ek__BackingField;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct InteractionLayerMask_t3B3480A4A5E1E0C43314C0D2CEB3BB39175E1FD4 
+{
+	uint32_t ___m_Bits;
+	int32_t ___m_Mask;
+};
+struct LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB 
+{
+	int32_t ___m_Mask;
+};
+struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682__padding[1];
+	};
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE 
+{
+	int32_t ___m_index;
+	int32_t ___m_version;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938  : public BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E
+{
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___U3CmanagerU3Ek__BackingField;
+};
+struct SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A  : public BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E
+{
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___U3CmanagerU3Ek__BackingField;
+	bool ___U3CisCanceledU3Ek__BackingField;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D3609_t8FBEEC8CF89B07829DD0CD8809AE5A40D0C15667 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D3609_t8FBEEC8CF89B07829DD0CD8809AE5A40D0C15667__padding[3609];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D4227_t852DB33D21288C07C2562EF17A16E99FBDD5EF10 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D4227_t852DB33D21288C07C2562EF17A16E99FBDD5EF10__padding[4227];
+	};
+};
+#pragma pack(pop, tp)
+struct TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3 
+{
+	float ___m_BaseAngle;
+	float ___m_CurrentOffset;
+	float ___m_AccumulatedAngle;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB  : public UnityEvent_1_tF375C8038EBFFA6D72A05014787BE5CDB0A95008
+{
+};
+struct HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832  : public UnityEvent_1_t4B30B07A73CFB8205961561C2945408585355F26
+{
+};
+struct InteractableFocusMode_tD8F528B65B8FA0E9C71F8A7BCABD7F99BA5982CB 
+{
+	int32_t ___value__;
+};
+struct InteractableSelectMode_tEEBF3D8EB75149E3417BDA4C0BC6A1C27BB25AC7 
+{
+	int32_t ___value__;
+};
+struct InteractorHandedness_t235041BA6D69977D466533780BB6B3F6A69AE499 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct QueryTriggerInteraction_t5AA443202C8B671F391534A002B7CF48A1412D23 
+{
+	int32_t ___value__;
+};
+struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
+	uint32_t ___m_FaceID;
+	float ___m_Distance;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UV;
+	int32_t ___m_Collider;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+	UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* ___document;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___element;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+	UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* ___document;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___element;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+	UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* ___document;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___element;
+};
+struct ScaleMode_tFE0976AC9C7B17C645F5EB5FCFE4EE618C4492DB 
+{
+	int32_t ___value__;
+};
+struct SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0  : public UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8
+{
+};
+struct SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6  : public UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B
+{
+};
+struct TargetPriorityMode_t4A1A7D2CB3263AD5E8C9610A49B27A208CC6C259 
+{
+	int32_t ___value__;
+};
+struct InputCompatibilityMode_t87D98233E86376C201E1222DA699D791094F8502 
+{
+	int32_t ___value__;
+};
+struct InputTriggerType_t53C489DF6BC255257BFC1CA705A47299F0117874 
+{
+	int32_t ___value__;
+};
+struct DistanceCalculationMode_tE85298033372A2D44BB92F8728EA55B845089383 
+{
+	int32_t ___value__;
+};
+struct UpdatePhase_t65E7F37927346B8A8D200C87BCA9E869EFE0BE37 
+{
+	int32_t ___value__;
+};
+struct JoystickType_tFA2F31A0CC3874113262D18698AB607DDF0D2B55 
+{
+	int32_t ___value__;
+};
+struct ValueChangeEvent_t392051F7A8D00C8652081F922180C02CA3043150  : public UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4
+{
+};
+struct ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17  : public UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4
+{
+};
+struct ValueChangeEvent_t6ABB63D6EC8E3745851A79F2AA32B8550933F214  : public UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4
+{
+};
+struct HitDetectionType_t9EA10D77C1655602A72E65A70F2992BC0652125B 
+{
+	int32_t ___value__;
+};
+struct LineType_t75A2C1CEF5F669EC8737AB266DFD81959C6D1AAB 
+{
+	int32_t ___value__;
+};
+struct QuerySnapVolumeInteraction_t656E9002929EFB4C4B33D2DF17AF1CBCB0492937 
+{
+	int32_t ___value__;
+};
+struct RotateMode_t044D456D90A580128488E248B4988660C2B17998 
+{
+	int32_t ___value__;
+};
+struct ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD  : public UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4
+{
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906  : public MulticastDelegate_t
+{
+};
+struct UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B  : public MulticastDelegate_t
+{
+};
+struct UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B  : public MulticastDelegate_t
+{
+};
+struct UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Action_1_tB8CA4FD5AE31D22DB74D262F9D03ACFA1C0B2CA8* ___registered;
+	Action_1_tCB862C932EAF49C2968D3AD96CEDF6D2DFED41F0* ___unregistered;
+	Func_3_t3C59F9322C032EF2EC419F9538F86DFC0F4B1421* ___U3CgetDistanceOverrideU3Ek__BackingField;
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___m_InteractionManager;
+	List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* ___m_Colliders;
+	InteractionLayerMask_t3B3480A4A5E1E0C43314C0D2CEB3BB39175E1FD4 ___m_InteractionLayers;
+	int32_t ___m_DistanceCalculationMode;
+	int32_t ___m_SelectMode;
+	int32_t ___m_FocusMode;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CustomReticle;
+	bool ___m_AllowGazeInteraction;
+	bool ___m_AllowGazeSelect;
+	bool ___m_OverrideGazeTimeToSelect;
+	float ___m_GazeTimeToSelect;
+	bool ___m_OverrideTimeToAutoDeselectGaze;
+	float ___m_TimeToAutoDeselectGaze;
+	bool ___m_AllowGazeAssistance;
+	HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* ___m_FirstHoverEntered;
+	HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* ___m_LastHoverExited;
+	HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* ___m_HoverEntered;
+	HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* ___m_HoverExited;
+	SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* ___m_FirstSelectEntered;
+	SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* ___m_LastSelectExited;
+	SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* ___m_SelectEntered;
+	SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* ___m_SelectExited;
+	FocusEnterEvent_tF5369B418FFFBE1C6FDE6EBDDD8B9E412A32CD90* ___m_FirstFocusEntered;
+	FocusExitEvent_tFAE8003B7B5A47FB4D9C5BB14D7A3273AF8931AE* ___m_LastFocusExited;
+	FocusEnterEvent_tF5369B418FFFBE1C6FDE6EBDDD8B9E412A32CD90* ___m_FocusEntered;
+	FocusExitEvent_tFAE8003B7B5A47FB4D9C5BB14D7A3273AF8931AE* ___m_FocusExited;
+	ActivateEvent_tA1D392B588AC99958CB847AE6911DC5131BCFB43* ___m_Activated;
+	DeactivateEvent_tFE44262C3D8377F947FD46D4561BB9DAC7E0785D* ___m_Deactivated;
+	HashSetList_1_tCF3541C1916DB23E3E8D3E2D2C675B59FE3ACBAF* ___m_InteractorsHovering;
+	bool ___U3CisHoveredU3Ek__BackingField;
+	HashSetList_1_t85FA4F6EDCA9A84D235398F53ED390EE2CE4DC98* ___m_InteractorsSelecting;
+	RuntimeObject* ___U3CfirstInteractorSelectingU3Ek__BackingField;
+	bool ___U3CisSelectedU3Ek__BackingField;
+	HashSetList_1_tCE34B4C28F58D67E795B058A35AD8A457BFB1175* ___m_InteractionGroupsFocusing;
+	RuntimeObject* ___U3CfirstInteractionGroupFocusingU3Ek__BackingField;
+	bool ___U3CisFocusedU3Ek__BackingField;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingHoverFilters;
+	ExposedRegistrationList_1_t11A438A04DF188A3BE1950639AAF0CBFAF9065A5* ___m_HoverFilters;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingSelectFilters;
+	ExposedRegistrationList_1_t0AF641D8E06922C1FFAF3DA223105F57CE5BC4D8* ___m_SelectFilters;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingInteractionStrengthFilters;
+	ExposedRegistrationList_1_t7932F633A860258335FD94BBFDE46AC92B1CF84B* ___m_InteractionStrengthFilters;
+	BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C* ___m_LargestInteractionStrength;
+	bool ___m_ClearedLargestInteractionStrength;
+	Dictionary_2_t9B20C3EBA931E014FB6496226DAB71B59F7CC4EC* ___m_AttachPoseOnSelect;
+	Dictionary_2_t9B20C3EBA931E014FB6496226DAB71B59F7CC4EC* ___m_LocalAttachPoseOnSelect;
+	Dictionary_2_t2FB52A1C9A5EF3BE7F06D41CF41259B9A0296ABC* ___m_ReticleCache;
+	HashSetList_1_tC0FA4922B36F37C46BA57A5B55C8B0A1FF78D9A2* ___m_VariableSelectInteractors;
+	Dictionary_2_t1A8FC8C012681D4B964E7A8A383FD3E718078AE9* ___m_InteractionStrengths;
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___m_RegisteredInteractionManager;
+};
+struct XRBaseInteractor_t4AF6FC9A7611B9417B4A43E11704AFF85B4A0FB4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Action_1_tBE7729820CBA793D8D5D57207BA5938B012863C5* ___registered;
+	Action_1_t9A06C49FCB3ADF4C984887951A3DC1DA07CFFBF0* ___unregistered;
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___m_InteractionManager;
+	RuntimeObject* ___U3CcontainingGroupU3Ek__BackingField;
+	InteractionLayerMask_t3B3480A4A5E1E0C43314C0D2CEB3BB39175E1FD4 ___m_InteractionLayers;
+	int32_t ___m_Handedness;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_AttachTransform;
+	bool ___m_KeepSelectedTargetValid;
+	bool ___m_DisableVisualsWhenBlockedInGroup;
+	XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* ___m_StartingSelectedInteractable;
+	XRBaseTargetFilter_t24D9DBCEA900DFEA08D543C91DFC070C1C91594F* ___m_StartingTargetFilter;
+	HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* ___m_HoverEntered;
+	HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* ___m_HoverExited;
+	SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* ___m_SelectEntered;
+	SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* ___m_SelectExited;
+	RuntimeObject* ___m_TargetFilter;
+	bool ___m_AllowHover;
+	bool ___m_AllowSelect;
+	bool ___m_IsPerformingManualInteraction;
+	HashSetList_1_t52A6279CDC8FAE4460A87A1B6A5E3437D58F5AE2* ___m_InteractablesHovered;
+	bool ___U3ChasHoverU3Ek__BackingField;
+	HashSetList_1_t1A0488B6A7A99FC77B3DC8ADC7C241B5B2F21789* ___m_InteractablesSelected;
+	RuntimeObject* ___U3CfirstInteractableSelectedU3Ek__BackingField;
+	bool ___U3ChasSelectionU3Ek__BackingField;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingHoverFilters;
+	ExposedRegistrationList_1_t11A438A04DF188A3BE1950639AAF0CBFAF9065A5* ___m_HoverFilters;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingSelectFilters;
+	ExposedRegistrationList_1_t0AF641D8E06922C1FFAF3DA223105F57CE5BC4D8* ___m_SelectFilters;
+	BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C* ___m_LargestInteractionStrength;
+	bool ___m_ClearedLargestInteractionStrength;
+	Dictionary_2_tBF02F25A38E519F312D7EF1C8B204EBDC91AB9A1* ___m_AttachPoseOnSelect;
+	Dictionary_2_tBF02F25A38E519F312D7EF1C8B204EBDC91AB9A1* ___m_LocalAttachPoseOnSelect;
+	HashSetList_1_tF3CBA0C6731B032420F2FEC573A03EE7A351CBC4* ___m_InteractionStrengthInteractables;
+	Dictionary_2_tA13026C91A8E0CE5AB55DC00628A33C71D2BE3F2* ___m_InteractionStrengths;
+	RuntimeObject* ___m_ManualInteractionInteractable;
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___m_RegisteredInteractionManager;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_XROriginTransform;
+	bool ___m_HasXROrigin;
+	bool ___m_FailedToFindXROrigin;
+	int32_t ___U3CtargetPriorityModeU3Ek__BackingField;
+	List_1_t96062976A34EF744BABF4798339ADC3741F0CF6C* ___U3CtargetsForSelectionU3Ek__BackingField;
+};
+struct XRBaseInputInteractor_t704F8C3C7AD9AD8857D5D3AAFDF2F2E37A27BE46  : public XRBaseInteractor_t4AF6FC9A7611B9417B4A43E11704AFF85B4A0FB4
+{
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_SelectInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ActivateInput;
+	int32_t ___m_SelectActionTrigger;
+	bool ___m_AllowHoveredActivate;
+	int32_t ___m_TargetPriorityMode;
+	bool ___m_AllowActivate;
+	List_1_t488784C52679764AD0C4F820CDD5C10973C9FC9D* ___U3CbuttonReadersU3Ek__BackingField;
+	List_1_t6AC1E63E8A7AEC25512ADBCAD6FAFB856A230C09* ___U3CvalueReadersU3Ek__BackingField;
+	LinkedPool_1_t99CFF33CB8085652A0F2FC6579D0388FB3CBAA01* ___m_ActivateEventArgs;
+	LinkedPool_1_t0F5C109EA19EF35798DEF24B63645919D0B7B53B* ___m_DeactivateEventArgs;
+	LogicalInputState_tC8869ADC07CFDF5E60D09DC140CC05EF0227843A* ___m_LogicalSelectState;
+	LogicalInputState_tC8869ADC07CFDF5E60D09DC140CC05EF0227843A* ___m_LogicalActivateState;
+	SimpleAudioFeedback_tF566C7044568575261BDCE78F2AF162675710B74* ___m_AudioFeedback;
+	SimpleHapticFeedback_t87E1E96B335ECBB5206B34437E25F65F200BE9D6* ___m_HapticFeedback;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___m_AudioSource;
+	HapticImpulsePlayer_tE153B969F453F119AF5B0D808FBA94D026A54A58* ___m_HapticImpulsePlayer;
+	bool ___m_HideControllerOnSelect;
+	int32_t ___m_InputCompatibilityMode;
+	XRBaseController_t44C1BB30A7E1D279DD2508F34D3352B33A9AD60C* ___m_Controller;
+	bool ___m_HasXRController;
+	bool ___m_PlayAudioClipOnSelectEntered;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___m_AudioClipForOnSelectEntered;
+	bool ___m_PlayAudioClipOnSelectExited;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___m_AudioClipForOnSelectExited;
+	bool ___m_PlayAudioClipOnSelectCanceled;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___m_AudioClipForOnSelectCanceled;
+	bool ___m_PlayAudioClipOnHoverEntered;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___m_AudioClipForOnHoverEntered;
+	bool ___m_PlayAudioClipOnHoverExited;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___m_AudioClipForOnHoverExited;
+	bool ___m_PlayAudioClipOnHoverCanceled;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___m_AudioClipForOnHoverCanceled;
+	bool ___m_AllowHoverAudioWhileSelecting;
+	bool ___m_PlayHapticsOnSelectEntered;
+	float ___m_HapticSelectEnterIntensity;
+	float ___m_HapticSelectEnterDuration;
+	bool ___m_PlayHapticsOnSelectExited;
+	float ___m_HapticSelectExitIntensity;
+	float ___m_HapticSelectExitDuration;
+	bool ___m_PlayHapticsOnSelectCanceled;
+	float ___m_HapticSelectCancelIntensity;
+	float ___m_HapticSelectCancelDuration;
+	bool ___m_PlayHapticsOnHoverEntered;
+	float ___m_HapticHoverEnterIntensity;
+	float ___m_HapticHoverEnterDuration;
+	bool ___m_PlayHapticsOnHoverExited;
+	float ___m_HapticHoverExitIntensity;
+	float ___m_HapticHoverExitDuration;
+	bool ___m_PlayHapticsOnHoverCanceled;
+	float ___m_HapticHoverCancelIntensity;
+	float ___m_HapticHoverCancelDuration;
+	bool ___m_AllowHoverHapticsWhileSelecting;
+};
+struct XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126  : public XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Handle;
+	float ___m_Value;
+	bool ___m_ClampedMotion;
+	float ___m_MaxAngle;
+	float ___m_MinAngle;
+	float ___m_AngleIncrement;
+	float ___m_PositionTrackedRadius;
+	float ___m_TwistSensitivity;
+	ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17* ___m_OnValueChange;
+	RuntimeObject* ___m_Interactor;
+	bool ___m_PositionDriven;
+	bool ___m_UpVectorDriven;
+	TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3 ___m_PositionAngles;
+	TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3 ___m_UpVectorAngles;
+	TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3 ___m_ForwardVectorAngles;
+	float ___m_BaseKnobRotation;
+};
+struct XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510  : public XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Handle;
+	bool ___m_Value;
+	bool ___m_LockToValue;
+	float ___m_MaxAngle;
+	float ___m_MinAngle;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_OnLeverActivate;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_OnLeverDeactivate;
+	RuntimeObject* ___m_Interactor;
+	bool ___U3ClockToValueU3Ek__BackingField;
+};
+struct XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3  : public XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Button;
+	float ___m_PressDistance;
+	float ___m_PressBuffer;
+	float ___m_ButtonOffset;
+	float ___m_ButtonSize;
+	bool ___m_ToggleButton;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_OnPress;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_OnRelease;
+	ValueChangeEvent_t6ABB63D6EC8E3745851A79F2AA32B8550933F214* ___m_OnValueChange;
+	bool ___m_Pressed;
+	bool ___m_Toggled;
+	float ___m_Value;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_BaseButtonPosition;
+	Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* ___m_HoveringInteractors;
+};
+struct XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51  : public XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Handle;
+	float ___m_Value;
+	float ___m_MaxPosition;
+	float ___m_MinPosition;
+	ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD* ___m_OnValueChange;
+	RuntimeObject* ___m_Interactor;
+};
+struct XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649  : public XRBaseInputInteractor_t704F8C3C7AD9AD8857D5D3AAFDF2F2E37A27BE46
+{
+	List_1_t7502D52CB2BF34D36AA992A3C5EFC8E834CB215A* ___m_ConeCastDebugInfo;
+	int32_t ___m_LineType;
+	bool ___m_BlendVisualLinePoints;
+	float ___m_MaxRaycastDistance;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_RayOriginTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_ReferenceFrame;
+	float ___m_Velocity;
+	float ___m_Acceleration;
+	float ___m_AdditionalGroundHeight;
+	float ___m_AdditionalFlightTime;
+	float ___m_EndPointDistance;
+	float ___m_EndPointHeight;
+	float ___m_ControlPointDistance;
+	float ___m_ControlPointHeight;
+	int32_t ___m_SampleFrequency;
+	int32_t ___m_HitDetectionType;
+	float ___m_SphereCastRadius;
+	float ___m_ConeCastAngle;
+	float ___m_CachedConeCastAngle;
+	float ___m_CachedConeCastRadius;
+	bool ___m_LiveConeCastDebugVisuals;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___m_RaycastMask;
+	int32_t ___m_RaycastTriggerInteraction;
+	int32_t ___m_RaycastSnapVolumeInteraction;
+	bool ___m_HitClosestOnly;
+	bool ___m_HoverToSelect;
+	float ___m_HoverTimeToSelect;
+	bool ___m_AutoDeselect;
+	float ___m_TimeToAutoDeselect;
+	bool ___m_EnableUIInteraction;
+	bool ___m_BlockInteractionsWithScreenSpaceUI;
+	bool ___m_BlockUIOnInteractableSelection;
+	bool ___m_ManipulateAttachTransform;
+	bool ___m_UseForceGrab;
+	float ___m_RotateSpeed;
+	float ___m_TranslateSpeed;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_RotateReferenceFrame;
+	int32_t ___m_RotateMode;
+	UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* ___m_UIHoverEntered;
+	UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* ___m_UIHoverExited;
+	bool ___m_EnableARRaycasting;
+	bool ___m_OccludeARHitsWith3DObjects;
+	bool ___m_OccludeARHitsWith2DObjects;
+	int32_t ___m_ScaleMode;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_UIPressInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_UIScrollInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_TranslateManipulationInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_RotateManipulationInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_DirectionalManipulationInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ScaleToggleInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_ScaleOverTimeInput;
+	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___m_ScaleDistanceDeltaInput;
+	RuntimeObject* ___U3CcurrentNearestValidTargetU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CrayEndPointU3Ek__BackingField;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___U3CrayEndTransformU3Ek__BackingField;
+	float ___U3CscaleValueU3Ek__BackingField;
+	bool ___m_HasRayOriginTransform;
+	bool ___m_HasReferenceFrame;
+	bool ___m_ScaleInputActive;
+	List_1_tC3F61ED5D2119F6F6D5E7C5F5662CB782CCD0724* ___m_ValidTargets;
+	Dictionary_2_t522560DA508EF51110C996AF2055A26B22C7426D* ___m_InteractableRaycastHits;
+	float ___m_LastTimeHoveredObjectChanged;
+	bool ___m_PassedHoverTimeToSelect;
+	float ___m_LastTimeAutoSelected;
+	bool ___m_PassedTimeToAutoDeselect;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LastUIObject;
+	float ___m_LastTimeHoveredUIChanged;
+	bool ___m_HoverUISelectActive;
+	bool ___m_BlockUIAutoDeselect;
+	RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* ___m_RaycastHits;
+	int32_t ___m_RaycastHitsCount;
+	RaycastHitComparer_tFAAC0D68E449ACF3BDD05D50F8CC6BEFF2B33B33* ___m_RaycastHitComparer;
+	List_1_t15F57185D4B9071FE0789904F8EC54114E4F8D6D* ___m_SamplePoints;
+	int32_t ___m_SamplePointsFrameUpdated;
+	int32_t ___m_RaycastHitEndpointIndex;
+	int32_t ___m_UIRaycastHitEndpointIndex;
+	float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45* ___m_ControlPoints;
+	float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45* ___m_HitChordControlPoints;
+	PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE ___m_LocalPhysicsScene;
+	RegisteredUIInteractorCache_t81419313AA113B206AF3FF94CD9D3B64A09CE413* ___m_RegisteredUIInteractorCache;
+	bool ___m_RaycastHitOccurred;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___m_RaycastHit;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___m_UIRaycastHit;
+	bool ___m_IsUIHitClosest;
+	RuntimeObject* ___m_RaycastInteractable;
+	ActionBasedController_tB9D8E7E013191571EA5507EA68057414B6969A68* ___m_ActionBasedController;
+	XRController_t928E104C899E51FDE12C0A8AC68874587C46C28F* ___m_DeviceBasedController;
+	XRScreenSpaceController_t046F18C2FE01EB347832DB82D42C84131771FF17* ___m_ScreenSpaceController;
+	bool ___m_IsActionBasedController;
+	bool ___m_IsDeviceBasedController;
+	bool ___m_IsScreenSpaceController;
+};
+struct U3CPrivateImplementationDetailsU3E_t113A43D993E1B4E33718EA9668FCC74828DD67FC_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D4227_t852DB33D21288C07C2562EF17A16E99FBDD5EF10 ___668E4A17BD23081F7E8E72784CAEFAE073DC74AE333DDCFBD82919E74D540764;
+	__StaticArrayInitTypeSizeU3D3609_t8FBEEC8CF89B07829DD0CD8809AE5A40D0C15667 ___B1B0DF010FA7614EF56CED521737363600D8333E183303DA5712273ED438F0F0;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields
+{
+	float ___Epsilon;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProcessInteractionStrengthMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProcessInteractionStrengthEventMarker;
+};
+struct XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649_StaticFields
+{
+	List_1_tC3F61ED5D2119F6F6D5E7C5F5662CB782CCD0724* ___s_Results;
+	RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* ___s_SpherecastScratch;
+	HashSet_1_t109CCE87260348881F7ED50EEE3FFD003542DC8B* ___s_OptimalHits;
+	List_1_t15F57185D4B9071FE0789904F8EC54114E4F8D6D* ___s_ScratchSamplePoints;
+	float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45* ___s_ScratchControlPoints;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___0_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA* Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB ValueCollection_GetEnumerator_m025EE28BE2F31676E08BC3D7C8E39D8232BDBBF8_gshared (ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mFD8FAB8D9FF5EDF9AE3B14CF539A8A34AA9527A8_gshared (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mBE11DA1DAFC756EB87E884AADC5EDC4BB72FB032_gshared (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+
+inline void UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422 (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, const RuntimeMethod*))UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_SetValue_mFB522CDCE5120523A96EA6D7036B78EEEE29BB51 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRKnob_ValueToRotation_m08003B34EF3CE2A8ADAF502323B956318EB66127 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_SetKnobRotation_m57EDEE417136FA2B730323B632BE0498FBAD38E0 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, float ___0_angle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRBaseInteractable_OnEnable_mCF208B5D87E5C2192D9967D39B534B4D556726B1 (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24 (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2 (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8* __this, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8*, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40 (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602 (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B* __this, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B*, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
+}
+inline void UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8* __this, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8*, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
+}
+inline void UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B* __this, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B*, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRBaseInteractable_OnDisable_m4379F5DC4C8CCA4C151FB564530ABC5831F1F3BC (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SelectEnterEventArgs_get_interactorObject_mDBBDCE0D498FC768E0EC28C2E862C8FE5B32DE59 (SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedRotation_Reset_mF730ABE399B03C83625A408F8D5F99414728E77E (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_UpdateBaseKnobRotation_m59532D40C91665CAB7CBBE2C463DF6D4364BF670 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_UpdateRotation_m0E4BD48C3FFF352C9228A01ACA40EAA0F523B397 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, bool ___0_freshCheck, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRBaseInteractable_ProcessInteractable_m3E6ED80E00620690E9FF53A8D6F76D329944C255 (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, int32_t ___0_updatePhase, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRBaseInteractable_get_isSelected_mCD9FBF9693629EBAE7BB0556377A45420C4E4DC1_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformVector_mBBA687CE32C0394FC9AB4F273D4E4A11F53FB044 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_TransformVector_mFA6FB7570442728CB15D03C696353148711CDD98 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedRotation_SetBaseFromVector_m495E86D66761EAC401B17C46FF596AD744A5F56B (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedRotation_SetTargetFromVector_mBDE9D3F3DFB8AEAFB6AAD748F726D6107384F0C3 (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TrackedRotation_get_totalOffset_m8335EC621910854624A3139B652A87FA934B264D (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_InverseLerp_mBD7EC6A7173CE082226077E1557D5BC2D2AE0D9D_inline (float ___0_a, float ___1_b, float ___2_value, const RuntimeMethod* method) ;
+inline void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805 (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___0_arg0, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, float, const RuntimeMethod*))UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared)(__this, ___0_arg0, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_LerpUnclamped_mF35042F9D25A221BDD4B3FD6251224610AFC1F35_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797 (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_DrawLine_mB139054F55D615637A39A3127AADB16043387F8A (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_from, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_to, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueChangeEvent__ctor_mBC41FCEA0AA4690860AE97314638CE07A22C2372 (ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRBaseInteractable__ctor_m0BA492AFD3DCFBF74ED2FE4B513644F213CCACBF (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRKnob_ShortestAngleDistance_mD9CB60A4DA2B17654A28956C9FFD6AC828611979 (float ___0_start, float ___1_end, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_SetValue_mDC69CA731001115DB1D6B073EFD0ED859652DFB9 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, bool ___0_isOn, bool ___1_forceRotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_UpdateValue_m9E36BF1D16C71BEADDAB1BC298C8580663F989FA (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRLever_GetLookDirection_m60D20489074AC4ADA156F2E6C6D58EA798D3A10B (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_SetHandleAngle_m3717163640DE65E1A3456084C0F3A79C67E85D5E (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, float ___0_angle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_point, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, float ___0_height, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRBaseInteractable_IsHoverableBy_m0A14C6D89663AB0FE8056F998161272E0B584583 (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, RuntimeObject* ___0_interactor, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* XRBaseInteractable_get_hoverEntered_m1CB558A7FA4272B1BF48908D5B7EDE21183538D0_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_m3C8E30AEA90302CA8E564E339058E839E40196F4 (UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F (UnityEvent_1_tF375C8038EBFFA6D72A05014787BE5CDB0A95008* __this, UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tF375C8038EBFFA6D72A05014787BE5CDB0A95008*, UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* XRBaseInteractable_get_hoverExited_m29ADA63D5D840CF95963EFD454E48045CDC009F1_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_m917A650EF730B0F8CDB9227A03A45B24FB54BCF8 (UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722 (UnityEvent_1_t4B30B07A73CFB8205961561C2945408585355F26* __this, UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t4B30B07A73CFB8205961561C2945408585355F26*, UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
+}
+inline void UnityEvent_1_RemoveListener_m171EFC9F72CB58EDA4139097DDCA155A3D9C7D33 (UnityEvent_1_tF375C8038EBFFA6D72A05014787BE5CDB0A95008* __this, UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tF375C8038EBFFA6D72A05014787BE5CDB0A95008*, UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
+}
+inline void UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78 (UnityEvent_1_t4B30B07A73CFB8205961561C2945408585355F26* __this, UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t4B30B07A73CFB8205961561C2945408585355F26*, UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HoverEnterEventArgs_get_interactorObject_mB6D0A7601D6494ECB1DE395059EC9A22354B5361 (HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressInfo__ctor_m772C95227A64BD660EBF391384EED3B0BEFCFC15 (PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* __this, const RuntimeMethod* method) ;
+inline void Dictionary_2_Add_m02AA5CDD34AC664726505A362E8733340BAE6410 (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* __this, RuntimeObject* ___0_key, PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA*, RuntimeObject*, PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HoverExitEventArgs_get_interactorObject_m1522F764C3599C40F6A81D1D1717ADD5B15D27D7 (HoverExitEventArgs_tFFBECDDAF90BF90AA3B7282FAEF1D8E5D19A5AD6* __this, const RuntimeMethod* method) ;
+inline bool Dictionary_2_Remove_mB7F77F5BCF183D3803194FB248BD80DE73FB6937 (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA*, RuntimeObject*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
+}
+inline int32_t Dictionary_2_get_Count_m4A33E8EB457ABC12877C3022843C5C1E98ABD04A (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA*, const RuntimeMethod*))Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_UpdatePress_m3ED769AB20F6E97BFAFAD1D5E05114F3A7589906 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) ;
+inline ValueCollection_t7F3B6DFB66C532ADCF3FC10914E7852FA60AFAEB* Dictionary_2_get_Values_mC0B53B07465A1D46383EBE00A066BBC51A915945 (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* __this, const RuntimeMethod* method)
+{
+	return ((  ValueCollection_t7F3B6DFB66C532ADCF3FC10914E7852FA60AFAEB* (*) (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA*, const RuntimeMethod*))Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared)(__this, method);
+}
+inline Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A ValueCollection_GetEnumerator_mE79662250CA098A7D61E56787F832285D9E49875 (ValueCollection_t7F3B6DFB66C532ADCF3FC10914E7852FA60AFAEB* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A (*) (ValueCollection_t7F3B6DFB66C532ADCF3FC10914E7852FA60AFAEB*, const RuntimeMethod*))ValueCollection_GetEnumerator_m025EE28BE2F31676E08BC3D7C8E39D8232BDBBF8_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m6E8A7996911878F82C01EEFB8D0E555EF19CED24 (Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A*, const RuntimeMethod*))Enumerator_Dispose_mFD8FAB8D9FF5EDF9AE3B14CF539A8A34AA9527A8_gshared)(__this, method);
+}
+inline PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* Enumerator_get_Current_mC40C4FCCF3AFE6ED01AE797C9B1141F1841CF44E_inline (Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A* __this, const RuntimeMethod* method)
+{
+	return ((  PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* (*) (Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A*, const RuntimeMethod*))Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m8987A1CA8F76050CE11D3609C83FE388918398CA (Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A*, const RuntimeMethod*))Enumerator_MoveNext_mBE11DA1DAFC756EB87E884AADC5EDC4BB72FB032_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_set_matrix_m100B4ACA7FBDFF65CE1BD0000E9E0D7566147A15 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_DrawWireCube_m343533B3955A2D04A8638280D0EF537274A1FD8B (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_size, const RuntimeMethod* method) ;
+inline void Dictionary_2__ctor_m268F093D61B7FEDB0D0F36F35985D41DEC9E6430 (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_SetValue_mDCA5611C423F4ACC175FF9622C1BC5B07310C465 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_SetSliderPosition_m868C3A5C8660AB80D6080F1C4B8CD26148070B02 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_UpdateSliderPosition_m816CAAC7F9DAECFD0C0822B62B195B71680F4D87 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueChangeEvent__ctor_m36E0FB628F57A83BB57A575FD914FAA4C5CCABB4 (ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77145
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueChangeEvent__ctor_mB08B11080CE454CBC4CB39B37FD66F817EA51D49 (ValueChangeEvent_t392051F7A8D00C8652081F922180C02CA3043150* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422(__this, UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77146
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XRKnob_get_handle_m7F6B8F24D831A17AB8CD99A79B626BBF83AC4D39 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:139>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_Handle;
+		return L_0;
+	}
+}
+// Method Definition Index: 77147
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_set_handle_m1CFBFCA56E72D9A549283A38765E40E3E8F5CA6B (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:140>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_value;
+		__this->___m_Handle = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Handle), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 77148
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRKnob_get_value_m036F021BC339E0693B7124D00AD9875CB861EF4A (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:148>
+		float L_0 = __this->___m_Value;
+		return L_0;
+	}
+}
+// Method Definition Index: 77149
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_set_value_m8AD52C0F9D6013794943E32005C0FF0F62E64C0C (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:151>
+		float L_0 = ___0_value;
+		XRKnob_SetValue_mFB522CDCE5120523A96EA6D7036B78EEEE29BB51(__this, L_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:152>
+		float L_1;
+		L_1 = XRKnob_ValueToRotation_m08003B34EF3CE2A8ADAF502323B956318EB66127(__this, NULL);
+		XRKnob_SetKnobRotation_m57EDEE417136FA2B730323B632BE0498FBAD38E0(__this, L_1, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:153>
+		return;
+	}
+}
+// Method Definition Index: 77150
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRKnob_get_clampedMotion_m4EF4962B0C2434D133706267F161CC9124D09AFA (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:161>
+		bool L_0 = __this->___m_ClampedMotion;
+		return L_0;
+	}
+}
+// Method Definition Index: 77151
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_set_clampedMotion_mFEB66402DC0BF4BF5E15A9BF90B6F3CD473E9934 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:162>
+		bool L_0 = ___0_value;
+		__this->___m_ClampedMotion = L_0;
+		return;
+	}
+}
+// Method Definition Index: 77152
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRKnob_get_maxAngle_m39B05E0691B03E142AE17FCF074B29A292FA3FBA (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:170>
+		float L_0 = __this->___m_MaxAngle;
+		return L_0;
+	}
+}
+// Method Definition Index: 77153
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_set_maxAngle_mADDF8207D8313AC4D6AF2115FB24A849F282015C (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:171>
+		float L_0 = ___0_value;
+		__this->___m_MaxAngle = L_0;
+		return;
+	}
+}
+// Method Definition Index: 77154
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRKnob_get_minAngle_mF2F223E11482E07D52EC7190FA57EAB4E128DAE8 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:179>
+		float L_0 = __this->___m_MinAngle;
+		return L_0;
+	}
+}
+// Method Definition Index: 77155
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_set_minAngle_m98EA7CA2B323D43AB5A132506B03D92E170A5AAD (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:180>
+		float L_0 = ___0_value;
+		__this->___m_MinAngle = L_0;
+		return;
+	}
+}
+// Method Definition Index: 77156
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRKnob_get_positionTrackedRadius_m06D2C86AD84AED23FF77EE96153C467E36B493F5 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:188>
+		float L_0 = __this->___m_PositionTrackedRadius;
+		return L_0;
+	}
+}
+// Method Definition Index: 77157
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_set_positionTrackedRadius_mA486838E52AFC38306FAE8BBF931B6054B38B1A2 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:189>
+		float L_0 = ___0_value;
+		__this->___m_PositionTrackedRadius = L_0;
+		return;
+	}
+}
+// Method Definition Index: 77158
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17* XRKnob_get_onValueChange_m920F1FD70F30013B5F7D4581458D1905E262FFF6 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:195>
+		ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17* L_0 = __this->___m_OnValueChange;
+		return L_0;
+	}
+}
+// Method Definition Index: 77159
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_Start_m54A81813A1E7AA065B75DBC4F2655532956F9963 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:199>
+		float L_0 = __this->___m_Value;
+		XRKnob_SetValue_mFB522CDCE5120523A96EA6D7036B78EEEE29BB51(__this, L_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:200>
+		float L_1;
+		L_1 = XRKnob_ValueToRotation_m08003B34EF3CE2A8ADAF502323B956318EB66127(__this, NULL);
+		XRKnob_SetKnobRotation_m57EDEE417136FA2B730323B632BE0498FBAD38E0(__this, L_1, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:201>
+		return;
+	}
+}
+// Method Definition Index: 77160
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_OnEnable_m4579BC2D391B93DB43B31FE5E6D7073406695460 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRKnob_EndGrab_m5895C8F96BCD0988A398D02433A2A71759A7D604_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRKnob_StartGrab_m2C4B91DD007ABB767E6E9302875B7EFEEAC49463_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:205>
+		XRBaseInteractable_OnEnable_mCF208B5D87E5C2192D9967D39B534B4D556726B1(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:206>
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_0;
+		L_0 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(__this, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_1 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_1, __this, (intptr_t)((void*)XRKnob_StartGrab_m2C4B91DD007ABB767E6E9302875B7EFEEAC49463_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_0, L_1, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:207>
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_2;
+		L_2 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(__this, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_3 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_3, __this, (intptr_t)((void*)XRKnob_EndGrab_m5895C8F96BCD0988A398D02433A2A71759A7D604_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602(L_2, L_3, UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:208>
+		return;
+	}
+}
+// Method Definition Index: 77161
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_OnDisable_mDA8DD83B30DF53874BEAED4465593BA1A2EFA095 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRKnob_EndGrab_m5895C8F96BCD0988A398D02433A2A71759A7D604_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRKnob_StartGrab_m2C4B91DD007ABB767E6E9302875B7EFEEAC49463_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:212>
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_0;
+		L_0 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(__this, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_1 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_1, __this, (intptr_t)((void*)XRKnob_StartGrab_m2C4B91DD007ABB767E6E9302875B7EFEEAC49463_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB(L_0, L_1, UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:213>
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_2;
+		L_2 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(__this, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_3 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_3, __this, (intptr_t)((void*)XRKnob_EndGrab_m5895C8F96BCD0988A398D02433A2A71759A7D604_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B(L_2, L_3, UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:214>
+		XRBaseInteractable_OnDisable_m4379F5DC4C8CCA4C151FB564530ABC5831F1F3BC(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:215>
+		return;
+	}
+}
+// Method Definition Index: 77162
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_StartGrab_m2C4B91DD007ABB767E6E9302875B7EFEEAC49463 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* ___0_args, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:219>
+		SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* L_0 = ___0_args;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = SelectEnterEventArgs_get_interactorObject_mDBBDCE0D498FC768E0EC28C2E862C8FE5B32DE59(L_0, NULL);
+		__this->___m_Interactor = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Interactor), (void*)L_1);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:221>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_2 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_PositionAngles);
+		TrackedRotation_Reset_mF730ABE399B03C83625A408F8D5F99414728E77E(L_2, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:222>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_3 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_UpVectorAngles);
+		TrackedRotation_Reset_mF730ABE399B03C83625A408F8D5F99414728E77E(L_3, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:223>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_4 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_ForwardVectorAngles);
+		TrackedRotation_Reset_mF730ABE399B03C83625A408F8D5F99414728E77E(L_4, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:225>
+		XRKnob_UpdateBaseKnobRotation_m59532D40C91665CAB7CBBE2C463DF6D4364BF670(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:226>
+		XRKnob_UpdateRotation_m0E4BD48C3FFF352C9228A01ACA40EAA0F523B397(__this, (bool)1, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:227>
+		return;
+	}
+}
+// Method Definition Index: 77163
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_EndGrab_m5895C8F96BCD0988A398D02433A2A71759A7D604 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A* ___0_args, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:231>
+		__this->___m_Interactor = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Interactor), (void*)(RuntimeObject*)NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:232>
+		return;
+	}
+}
+// Method Definition Index: 77164
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_ProcessInteractable_m85660AF86FF7C80552D7B88BA601FDE0E930C6D3 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, int32_t ___0_updatePhase, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:236>
+		int32_t L_0 = ___0_updatePhase;
+		XRBaseInteractable_ProcessInteractable_m3E6ED80E00620690E9FF53A8D6F76D329944C255(__this, L_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:238>
+		int32_t L_1 = ___0_updatePhase;
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:240>
+		bool L_3;
+		L_3 = XRBaseInteractable_get_isSelected_mCD9FBF9693629EBAE7BB0556377A45420C4E4DC1_inline(__this, NULL);
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:242>
+		XRKnob_UpdateRotation_m0E4BD48C3FFF352C9228A01ACA40EAA0F523B397(__this, (bool)0, NULL);
+	}
+
+IL_0026:
+	{
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:245>
+		return;
+	}
+}
+// Method Definition Index: 77165
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_UpdateRotation_m0E4BD48C3FFF352C9228A01ACA40EAA0F523B397 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, bool ___0_freshCheck, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:250>
+		RuntimeObject* L_0 = __this->___m_Interactor;
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = InterfaceFuncInvoker1< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, RuntimeObject* >::Invoke(7, IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var, L_0, __this);
+		V_0 = L_1;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:254>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_0;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___m_Handle;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_4, L_6, NULL);
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_InverseTransformVector_mBBA687CE32C0394FC9AB4F273D4E4A11F53FB044(L_2, L_7, NULL);
+		V_1 = L_8;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:255>
+		(&V_1)->___y = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:256>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_1;
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_TransformVector_mFA6FB7570442728CB15D03C696353148711CDD98(L_9, L_10, NULL);
+		V_8 = L_11;
+		float L_12;
+		L_12 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_8), NULL);
+		V_2 = L_12;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:257>
+		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_1), NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:259>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_0;
+		NullCheck(L_14);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_14, NULL);
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575(L_13, L_15, NULL);
+		V_3 = L_16;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:260>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_3;
+		float L_18 = L_17.___y;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_19;
+		L_19 = fabsf(L_18);
+		V_4 = L_19;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:261>
+		(&V_3)->___y = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:262>
+		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_3), NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:264>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = V_0;
+		NullCheck(L_21);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2(L_21, NULL);
+		NullCheck(L_20);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575(L_20, L_22, NULL);
+		V_5 = L_23;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:265>
+		(&V_5)->___y = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:266>
+		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_5), NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:269>
+		bool L_24 = __this->___m_PositionDriven;
+		if (!L_24)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		bool L_25 = ___0_freshCheck;
+		G_B3_0 = ((((int32_t)L_25) == ((int32_t)0))? 1 : 0);
+		goto IL_00c3;
+	}
+
+IL_00c2:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_00c3:
+	{
+		V_9 = (bool)G_B3_0;
+		bool L_26 = V_9;
+		if (!L_26)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:270>
+		float L_27 = V_2;
+		V_2 = ((float)il2cpp_codegen_multiply(L_27, (1.10000002f)));
+	}
+
+IL_00d1:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:274>
+		float L_28 = V_2;
+		float L_29 = __this->___m_PositionTrackedRadius;
+		V_10 = (bool)((((int32_t)((!(((float)L_28) >= ((float)L_29)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_30 = V_10;
+		if (!L_30)
+		{
+			goto IL_010e;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:276>
+		bool L_31 = __this->___m_PositionDriven;
+		bool L_32 = ___0_freshCheck;
+		V_11 = (bool)((int32_t)(((((int32_t)L_31) == ((int32_t)0))? 1 : 0)|(int32_t)L_32));
+		bool L_33 = V_11;
+		if (!L_33)
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:278>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_34 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_PositionAngles);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_1;
+		TrackedRotation_SetBaseFromVector_m495E86D66761EAC401B17C46FF596AD744A5F56B(L_34, L_35, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:279>
+		__this->___m_PositionDriven = (bool)1;
+	}
+
+IL_010b:
+	{
+		goto IL_0115;
+	}
+
+IL_010e:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:283>
+		__this->___m_PositionDriven = (bool)0;
+	}
+
+IL_0115:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:286>
+		bool L_36 = ___0_freshCheck;
+		V_12 = (bool)((((int32_t)L_36) == ((int32_t)0))? 1 : 0);
+		bool L_37 = V_12;
+		if (!L_37)
+		{
+			goto IL_0146;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:288>
+		bool L_38 = __this->___m_UpVectorDriven;
+		V_13 = (bool)((((int32_t)L_38) == ((int32_t)0))? 1 : 0);
+		bool L_39 = V_13;
+		if (!L_39)
+		{
+			goto IL_013b;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:289>
+		float L_40 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_40, (0.949999988f)));
+		goto IL_0145;
+	}
+
+IL_013b:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:291>
+		float L_41 = V_4;
+		V_4 = ((float)il2cpp_codegen_multiply(L_41, (1.04999995f)));
+	}
+
+IL_0145:
+	{
+	}
+
+IL_0146:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:294>
+		float L_42 = V_4;
+		V_14 = (bool)((((float)L_42) > ((float)(0.707000017f)))? 1 : 0);
+		bool L_43 = V_14;
+		if (!L_43)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:296>
+		bool L_44 = __this->___m_UpVectorDriven;
+		bool L_45 = ___0_freshCheck;
+		V_15 = (bool)((int32_t)(((((int32_t)L_44) == ((int32_t)0))? 1 : 0)|(int32_t)L_45));
+		bool L_46 = V_15;
+		if (!L_46)
+		{
+			goto IL_017e;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:298>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_47 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_UpVectorAngles);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_5;
+		TrackedRotation_SetBaseFromVector_m495E86D66761EAC401B17C46FF596AD744A5F56B(L_47, L_48, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:299>
+		__this->___m_UpVectorDriven = (bool)1;
+	}
+
+IL_017e:
+	{
+		goto IL_01a7;
+	}
+
+IL_0181:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:304>
+		bool L_49 = __this->___m_UpVectorDriven;
+		bool L_50 = ___0_freshCheck;
+		V_16 = (bool)((int32_t)((int32_t)L_49|(int32_t)L_50));
+		bool L_51 = V_16;
+		if (!L_51)
+		{
+			goto IL_01a6;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:306>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_52 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_ForwardVectorAngles);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_3;
+		TrackedRotation_SetBaseFromVector_m495E86D66761EAC401B17C46FF596AD744A5F56B(L_52, L_53, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:307>
+		__this->___m_UpVectorDriven = (bool)0;
+	}
+
+IL_01a6:
+	{
+	}
+
+IL_01a7:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:312>
+		bool L_54 = __this->___m_PositionDriven;
+		V_17 = L_54;
+		bool L_55 = V_17;
+		if (!L_55)
+		{
+			goto IL_01c0;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:313>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_56 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_PositionAngles);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57 = V_1;
+		TrackedRotation_SetTargetFromVector_mBDE9D3F3DFB8AEAFB6AAD748F726D6107384F0C3(L_56, L_57, NULL);
+	}
+
+IL_01c0:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:315>
+		bool L_58 = __this->___m_UpVectorDriven;
+		V_18 = L_58;
+		bool L_59 = V_18;
+		if (!L_59)
+		{
+			goto IL_01dc;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:316>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_60 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_UpVectorAngles);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = V_5;
+		TrackedRotation_SetTargetFromVector_mBDE9D3F3DFB8AEAFB6AAD748F726D6107384F0C3(L_60, L_61, NULL);
+		goto IL_01e9;
+	}
+
+IL_01dc:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:318>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_62 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_ForwardVectorAngles);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63 = V_3;
+		TrackedRotation_SetTargetFromVector_mBDE9D3F3DFB8AEAFB6AAD748F726D6107384F0C3(L_62, L_63, NULL);
+	}
+
+IL_01e9:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:321>
+		float L_64 = __this->___m_BaseKnobRotation;
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_65 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_UpVectorAngles);
+		float L_66;
+		L_66 = TrackedRotation_get_totalOffset_m8335EC621910854624A3139B652A87FA934B264D(L_65, NULL);
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_67 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_ForwardVectorAngles);
+		float L_68;
+		L_68 = TrackedRotation_get_totalOffset_m8335EC621910854624A3139B652A87FA934B264D(L_67, NULL);
+		float L_69 = __this->___m_TwistSensitivity;
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_70 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_PositionAngles);
+		float L_71;
+		L_71 = TrackedRotation_get_totalOffset_m8335EC621910854624A3139B652A87FA934B264D(L_70, NULL);
+		V_6 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_64, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_66, L_68)), L_69)))), L_71));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:324>
+		bool L_72 = __this->___m_ClampedMotion;
+		V_19 = L_72;
+		bool L_73 = V_19;
+		if (!L_73)
+		{
+			goto IL_023d;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:325>
+		float L_74 = V_6;
+		float L_75 = __this->___m_MinAngle;
+		float L_76 = __this->___m_MaxAngle;
+		float L_77;
+		L_77 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_74, L_75, L_76, NULL);
+		V_6 = L_77;
+	}
+
+IL_023d:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:327>
+		float L_78 = V_6;
+		XRKnob_SetKnobRotation_m57EDEE417136FA2B730323B632BE0498FBAD38E0(__this, L_78, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:330>
+		float L_79 = V_6;
+		float L_80 = __this->___m_MinAngle;
+		float L_81 = __this->___m_MaxAngle;
+		float L_82 = __this->___m_MinAngle;
+		V_7 = ((float)(((float)il2cpp_codegen_subtract(L_79, L_80))/((float)il2cpp_codegen_subtract(L_81, L_82))));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:331>
+		float L_83 = V_7;
+		XRKnob_SetValue_mFB522CDCE5120523A96EA6D7036B78EEEE29BB51(__this, L_83, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:332>
+		return;
+	}
+}
+// Method Definition Index: 77166
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_SetKnobRotation_m57EDEE417136FA2B730323B632BE0498FBAD38E0 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, float ___0_angle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:336>
+		float L_0 = __this->___m_AngleIncrement;
+		V_0 = (bool)((((float)L_0) > ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:338>
+		float L_2 = ___0_angle;
+		float L_3 = __this->___m_MinAngle;
+		V_1 = ((float)il2cpp_codegen_subtract(L_2, L_3));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:339>
+		float L_4 = V_1;
+		float L_5 = __this->___m_AngleIncrement;
+		float L_6;
+		L_6 = bankers_roundf(((float)(L_4/L_5)));
+		float L_7 = __this->___m_AngleIncrement;
+		float L_8 = __this->___m_MinAngle;
+		___0_angle = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_6, L_7)), L_8));
+	}
+
+IL_003a:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:342>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___m_Handle;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_2 = L_10;
+		bool L_11 = V_2;
+		if (!L_11)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:343>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->___m_Handle;
+		float L_13 = ___0_angle;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), (0.0f), L_13, (0.0f), NULL);
+		NullCheck(L_12);
+		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_12, L_14, NULL);
+	}
+
+IL_0066:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:344>
+		return;
+	}
+}
+// Method Definition Index: 77167
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_SetValue_mFB522CDCE5120523A96EA6D7036B78EEEE29BB51 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:348>
+		bool L_0 = __this->___m_ClampedMotion;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:349>
+		float L_2 = ___0_value;
+		float L_3;
+		L_3 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_2, NULL);
+		___0_value = L_3;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:351>
+		float L_4 = __this->___m_AngleIncrement;
+		V_1 = (bool)((((float)L_4) > ((float)(0.0f)))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:353>
+		float L_6 = __this->___m_MaxAngle;
+		float L_7 = __this->___m_MinAngle;
+		V_2 = ((float)il2cpp_codegen_subtract(L_6, L_7));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:354>
+		float L_8 = V_2;
+		float L_9 = ___0_value;
+		float L_10;
+		L_10 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.0f), L_8, L_9, NULL);
+		V_3 = L_10;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:355>
+		float L_11 = V_3;
+		float L_12 = __this->___m_AngleIncrement;
+		float L_13;
+		L_13 = bankers_roundf(((float)(L_11/L_12)));
+		float L_14 = __this->___m_AngleIncrement;
+		V_3 = ((float)il2cpp_codegen_multiply(L_13, L_14));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:356>
+		float L_15 = V_2;
+		float L_16 = V_3;
+		float L_17;
+		L_17 = Mathf_InverseLerp_mBD7EC6A7173CE082226077E1557D5BC2D2AE0D9D_inline((0.0f), L_15, L_16, NULL);
+		___0_value = L_17;
+	}
+
+IL_0064:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:359>
+		float L_18 = ___0_value;
+		__this->___m_Value = L_18;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:360>
+		ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17* L_19 = __this->___m_OnValueChange;
+		float L_20 = __this->___m_Value;
+		NullCheck(L_19);
+		UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805(L_19, L_20, UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:361>
+		return;
+	}
+}
+// Method Definition Index: 77168
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRKnob_ValueToRotation_m08003B34EF3CE2A8ADAF502323B956318EB66127 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:365>
+		bool L_0 = __this->___m_ClampedMotion;
+		if (L_0)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		float L_1 = __this->___m_MinAngle;
+		float L_2 = __this->___m_MaxAngle;
+		float L_3 = __this->___m_Value;
+		float L_4;
+		L_4 = Mathf_LerpUnclamped_mF35042F9D25A221BDD4B3FD6251224610AFC1F35_inline(L_1, L_2, L_3, NULL);
+		G_B3_0 = L_4;
+		goto IL_0039;
+	}
+
+IL_0022:
+	{
+		float L_5 = __this->___m_MinAngle;
+		float L_6 = __this->___m_MaxAngle;
+		float L_7 = __this->___m_Value;
+		float L_8;
+		L_8 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_5, L_6, L_7, NULL);
+		G_B3_0 = L_8;
+	}
+
+IL_0039:
+	{
+		V_0 = G_B3_0;
+		goto IL_003c;
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:366>
+		float L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 77169
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_UpdateBaseKnobRotation_m59532D40C91665CAB7CBBE2C463DF6D4364BF670 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:370>
+		float L_0 = __this->___m_MinAngle;
+		float L_1 = __this->___m_MaxAngle;
+		float L_2 = __this->___m_Value;
+		float L_3;
+		L_3 = Mathf_LerpUnclamped_mF35042F9D25A221BDD4B3FD6251224610AFC1F35_inline(L_0, L_1, L_2, NULL);
+		__this->___m_BaseKnobRotation = L_3;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:371>
+		return;
+	}
+}
+// Method Definition Index: 77170
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRKnob_ShortestAngleDistance_mD9CB60A4DA2B17654A28956C9FFD6AC828611979 (float ___0_start, float ___1_end, float ___2_max, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:375>
+		float L_0 = ___1_end;
+		float L_1 = ___0_start;
+		V_0 = ((float)il2cpp_codegen_subtract(L_0, L_1));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:376>
+		float L_2 = V_0;
+		float L_3;
+		L_3 = Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:378>
+		float L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_5;
+		L_5 = fabsf(L_4);
+		float L_6 = ___2_max;
+		V_0 = (fmodf(L_5, L_6));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:379>
+		float L_7 = V_0;
+		float L_8 = ___2_max;
+		V_2 = (bool)((((float)L_7) > ((float)((float)il2cpp_codegen_multiply(L_8, (0.5f)))))? 1 : 0);
+		bool L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:380>
+		float L_10 = ___2_max;
+		float L_11 = V_0;
+		V_0 = ((-((float)il2cpp_codegen_subtract(L_10, L_11))));
+	}
+
+IL_0028:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:382>
+		float L_12 = V_0;
+		float L_13 = V_1;
+		V_3 = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:383>
+		float L_14 = V_3;
+		return L_14;
+	}
+}
+// Method Definition Index: 77171
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_OnDrawGizmosSelected_mA7FC5CE9A43661870BBB78F34B316E97D61F5264 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	bool V_5 = false;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	bool V_8 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:391>
+		float L_0 = __this->___m_PositionTrackedRadius;
+		float L_1 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		V_4 = (bool)((((int32_t)((!(((float)L_0) <= ((float)L_1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_4;
+		if (!L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:392>
+		goto IL_0116;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:395>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		V_0 = L_4;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:397>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___m_Handle;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_5 = L_6;
+		bool L_7 = V_5;
+		if (!L_7)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:398>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___m_Handle;
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		V_0 = L_9;
+	}
+
+IL_0046:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:400>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4(L_10, NULL);
+		V_1 = L_11;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:401>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_12, NULL);
+		V_2 = L_13;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:403>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
+		L_14 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_14, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:404>
+		V_3 = 0;
+		goto IL_0108;
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:407>
+		int32_t L_15 = V_3;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)L_15), (0.0625f))), (2.0f))), (3.14159274f)));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:408>
+		int32_t L_16 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:409>
+		int32_t L_17 = V_3;
+		V_7 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)L_17), (0.0625f))), (2.0f))), (3.14159274f)));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:411>
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:412>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_0;
+		float L_19 = V_6;
+		float L_20;
+		L_20 = cosf(L_19);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_20, L_21, NULL);
+		float L_23 = V_6;
+		float L_24;
+		L_24 = sinf(L_23);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_24, L_25, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_22, L_26, NULL);
+		float L_28 = __this->___m_PositionTrackedRadius;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_27, L_28, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_18, L_29, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_0;
+		float L_32 = V_7;
+		float L_33;
+		L_33 = cosf(L_32);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_33, L_34, NULL);
+		float L_36 = V_7;
+		float L_37;
+		L_37 = sinf(L_36);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_37, L_38, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
+		L_40 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_35, L_39, NULL);
+		float L_41 = __this->___m_PositionTrackedRadius;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
+		L_42 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_40, L_41, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		L_43 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_31, L_42, NULL);
+		Gizmos_DrawLine_mB139054F55D615637A39A3127AADB16043387F8A(L_30, L_43, NULL);
+	}
+
+IL_0108:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:405>
+		int32_t L_44 = V_3;
+		V_8 = (bool)((((int32_t)L_44) < ((int32_t)((int32_t)16)))? 1 : 0);
+		bool L_45 = V_8;
+		if (L_45)
+		{
+			goto IL_0070;
+		}
+	}
+
+IL_0116:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:414>
+		return;
+	}
+}
+// Method Definition Index: 77172
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob_OnValidate_mB08147D8DC4B8E860E6B7D09696CC81082CC9F22 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:418>
+		bool L_0 = __this->___m_ClampedMotion;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:419>
+		float L_2 = __this->___m_Value;
+		float L_3;
+		L_3 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_2, NULL);
+		__this->___m_Value = L_3;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:421>
+		float L_4 = __this->___m_MinAngle;
+		float L_5 = __this->___m_MaxAngle;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:422>
+		float L_7 = __this->___m_MaxAngle;
+		__this->___m_MinAngle = L_7;
+	}
+
+IL_003a:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:424>
+		float L_8;
+		L_8 = XRKnob_ValueToRotation_m08003B34EF3CE2A8ADAF502323B956318EB66127(__this, NULL);
+		XRKnob_SetKnobRotation_m57EDEE417136FA2B730323B632BE0498FBAD38E0(__this, L_8, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:425>
+		return;
+	}
+}
+// Method Definition Index: 77173
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRKnob__ctor_mE285342CE8BB3795515A292269CFA539A4882F20 (XRKnob_t515317ECC5A9200F3EA297D8D17848C033F4F126* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:88>
+		__this->___m_Handle = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Handle), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:93>
+		__this->___m_Value = (0.5f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:97>
+		__this->___m_ClampedMotion = (bool)1;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:101>
+		__this->___m_MaxAngle = (90.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:105>
+		__this->___m_MinAngle = (-90.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:109>
+		__this->___m_AngleIncrement = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:113>
+		__this->___m_PositionTrackedRadius = (0.100000001f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:117>
+		__this->___m_TwistSensitivity = (1.5f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:121>
+		ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17* L_0 = (ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17*)il2cpp_codegen_object_new(ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17_il2cpp_TypeInfo_var);
+		ValueChangeEvent__ctor_mBC41FCEA0AA4690860AE97314638CE07A22C2372(L_0, NULL);
+		__this->___m_OnValueChange = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnValueChange), (void*)L_0);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:125>
+		__this->___m_PositionDriven = (bool)0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:126>
+		__this->___m_UpVectorDriven = (bool)0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:128>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_1 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_PositionAngles);
+		il2cpp_codegen_initobj(L_1, sizeof(TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:129>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_2 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_UpVectorAngles);
+		il2cpp_codegen_initobj(L_2, sizeof(TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:130>
+		TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* L_3 = (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*)(&__this->___m_ForwardVectorAngles);
+		il2cpp_codegen_initobj(L_3, sizeof(TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:132>
+		__this->___m_BaseKnobRotation = (0.0f);
+		il2cpp_codegen_runtime_class_init_inline(XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_il2cpp_TypeInfo_var);
+		XRBaseInteractable__ctor_m0BA492AFD3DCFBF74ED2FE4B513644F213CCACBF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77174
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TrackedRotation_get_totalOffset_m8335EC621910854624A3139B652A87FA934B264D (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:39>
+		float L_0 = __this->___m_AccumulatedAngle;
+		float L_1 = __this->___m_CurrentOffset;
+		return ((float)il2cpp_codegen_add(L_0, L_1));
+	}
+}
+IL2CPP_EXTERN_C  float TrackedRotation_get_totalOffset_m8335EC621910854624A3139B652A87FA934B264D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*>(__this + _offset);
+	float _returnValue;
+	_returnValue = TrackedRotation_get_totalOffset_m8335EC621910854624A3139B652A87FA934B264D(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 77175
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedRotation_Reset_mF730ABE399B03C83625A408F8D5F99414728E77E (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:46>
+		__this->___m_BaseAngle = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:47>
+		__this->___m_CurrentOffset = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:48>
+		__this->___m_AccumulatedAngle = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:49>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void TrackedRotation_Reset_mF730ABE399B03C83625A408F8D5F99414728E77E_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*>(__this + _offset);
+	TrackedRotation_Reset_mF730ABE399B03C83625A408F8D5F99414728E77E(_thisAdjusted, method);
+}
+// Method Definition Index: 77176
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedRotation_SetBaseFromVector_m495E86D66761EAC401B17C46FF596AD744A5F56B (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:58>
+		float L_0 = __this->___m_AccumulatedAngle;
+		float L_1 = __this->___m_CurrentOffset;
+		__this->___m_AccumulatedAngle = ((float)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:61>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_direction;
+		float L_3 = L_2.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_direction;
+		float L_5 = L_4.___x;
+		float L_6;
+		L_6 = atan2f(L_3, L_5);
+		__this->___m_BaseAngle = ((float)il2cpp_codegen_multiply(L_6, (57.2957802f)));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:62>
+		__this->___m_CurrentOffset = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:63>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void TrackedRotation_SetBaseFromVector_m495E86D66761EAC401B17C46FF596AD744A5F56B_AdjustorThunk (RuntimeObject* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method)
+{
+	TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*>(__this + _offset);
+	TrackedRotation_SetBaseFromVector_m495E86D66761EAC401B17C46FF596AD744A5F56B(_thisAdjusted, ___0_direction, method);
+}
+// Method Definition Index: 77177
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedRotation_SetTargetFromVector_mBDE9D3F3DFB8AEAFB6AAD748F726D6107384F0C3 (TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:68>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_direction;
+		float L_1 = L_0.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_direction;
+		float L_3 = L_2.___x;
+		float L_4;
+		L_4 = atan2f(L_1, L_3);
+		V_0 = ((float)il2cpp_codegen_multiply(L_4, (57.2957802f)));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:71>
+		float L_5 = __this->___m_BaseAngle;
+		float L_6 = V_0;
+		float L_7;
+		L_7 = XRKnob_ShortestAngleDistance_mD9CB60A4DA2B17654A28956C9FFD6AC828611979(L_5, L_6, (360.0f), NULL);
+		__this->___m_CurrentOffset = L_7;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:74>
+		float L_8 = __this->___m_CurrentOffset;
+		float L_9;
+		L_9 = fabsf(L_8);
+		V_1 = (bool)((((float)L_9) > ((float)(90.0f)))? 1 : 0);
+		bool L_10 = V_1;
+		if (!L_10)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:76>
+		float L_11 = V_0;
+		__this->___m_BaseAngle = L_11;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:77>
+		float L_12 = __this->___m_AccumulatedAngle;
+		float L_13 = __this->___m_CurrentOffset;
+		__this->___m_AccumulatedAngle = ((float)il2cpp_codegen_add(L_12, L_13));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:78>
+		__this->___m_CurrentOffset = (0.0f);
+	}
+
+IL_006d:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs:80>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void TrackedRotation_SetTargetFromVector_mBDE9D3F3DFB8AEAFB6AAD748F726D6107384F0C3_AdjustorThunk (RuntimeObject* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method)
+{
+	TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<TrackedRotation_t66CAAA8384E11A2A6F9BDA0CE9FDF8A333A3F6A3*>(__this + _offset);
+	TrackedRotation_SetTargetFromVector_mBDE9D3F3DFB8AEAFB6AAD748F726D6107384F0C3(_thisAdjusted, ___0_direction, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77178
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueChangeEvent__ctor_mBC41FCEA0AA4690860AE97314638CE07A22C2372 (ValueChangeEvent_t0481CAE6722F3B57C58A7EFCB81AAFE9F6F30E17* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422(__this, UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77179
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XRLever_get_handle_mCF7B3AE06DB26AF7F8E4D681D8225E18694E779C (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:52>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_Handle;
+		return L_0;
+	}
+}
+// Method Definition Index: 77180
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_set_handle_mE5BAD09602B4EFD3AF101E6A3D82CF7E403E9B3B (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:53>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_value;
+		__this->___m_Handle = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Handle), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 77181
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLever_get_value_mC5E857376181178F64CCDE9D5C0DBA8B65372903 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:61>
+		bool L_0 = __this->___m_Value;
+		return L_0;
+	}
+}
+// Method Definition Index: 77182
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_set_value_m2082393D4D4491A7C05E680F3DC38E8C11A75B5B (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:62>
+		bool L_0 = ___0_value;
+		XRLever_SetValue_mDC69CA731001115DB1D6B073EFD0ED859652DFB9(__this, L_0, (bool)1, NULL);
+		return;
+	}
+}
+// Method Definition Index: 77183
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRLever_get_lockToValue_m1DC8895C6D1F39B8AA3D7BE7471C72A7030D9BC7 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:68>
+		bool L_0 = __this->___U3ClockToValueU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 77184
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_set_lockToValue_mE299BCBA0E8205E7874B946A39E6C1C9EF46311E (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:68>
+		bool L_0 = ___0_value;
+		__this->___U3ClockToValueU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 77185
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRLever_get_maxAngle_m08FC1610AE5A2DB59C982BAFCF5723932D2B013A (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:75>
+		float L_0 = __this->___m_MaxAngle;
+		return L_0;
+	}
+}
+// Method Definition Index: 77186
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_set_maxAngle_m0D574192F2F3B9D4C716A20D5A1E3DAC29715B17 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:76>
+		float L_0 = ___0_value;
+		__this->___m_MaxAngle = L_0;
+		return;
+	}
+}
+// Method Definition Index: 77187
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRLever_get_minAngle_m4BE047FF9E577DE3A778E303E8281EEC61A9893E (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:84>
+		float L_0 = __this->___m_MinAngle;
+		return L_0;
+	}
+}
+// Method Definition Index: 77188
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_set_minAngle_m91F2D95580C056E33366B47AC937786BE8EFA11A (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:85>
+		float L_0 = ___0_value;
+		__this->___m_MinAngle = L_0;
+		return;
+	}
+}
+// Method Definition Index: 77189
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* XRLever_get_onLeverActivate_m4F52F081278D0A80B0905BEB7ECBF85914066138 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:91>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___m_OnLeverActivate;
+		return L_0;
+	}
+}
+// Method Definition Index: 77190
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* XRLever_get_onLeverDeactivate_mFD732BB5033E3078BF393DD8A106B8915C0C2D1B (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:96>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___m_OnLeverDeactivate;
+		return L_0;
+	}
+}
+// Method Definition Index: 77191
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_Start_m932E14A276B231886FDA59F07EF089121B26040A (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:100>
+		bool L_0 = __this->___m_Value;
+		XRLever_SetValue_mDC69CA731001115DB1D6B073EFD0ED859652DFB9(__this, L_0, (bool)1, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:101>
+		return;
+	}
+}
+// Method Definition Index: 77192
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_OnEnable_m73A3D7AAFB7D2378B60BFC267815F6CEDEE05A79 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRLever_EndGrab_m1B9DA5DD2083DBC832CF4BB25FC1739B52872021_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRLever_StartGrab_m3546A1894506795A821042FABC3328880357FB4A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:105>
+		XRBaseInteractable_OnEnable_mCF208B5D87E5C2192D9967D39B534B4D556726B1(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:106>
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_0;
+		L_0 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(__this, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_1 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_1, __this, (intptr_t)((void*)XRLever_StartGrab_m3546A1894506795A821042FABC3328880357FB4A_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_0, L_1, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:107>
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_2;
+		L_2 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(__this, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_3 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_3, __this, (intptr_t)((void*)XRLever_EndGrab_m1B9DA5DD2083DBC832CF4BB25FC1739B52872021_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602(L_2, L_3, UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:108>
+		return;
+	}
+}
+// Method Definition Index: 77193
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_OnDisable_mAA4D78C35CE78760B960A97743B983B7E24351C1 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRLever_EndGrab_m1B9DA5DD2083DBC832CF4BB25FC1739B52872021_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRLever_StartGrab_m3546A1894506795A821042FABC3328880357FB4A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:112>
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_0;
+		L_0 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(__this, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_1 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_1, __this, (intptr_t)((void*)XRLever_StartGrab_m3546A1894506795A821042FABC3328880357FB4A_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB(L_0, L_1, UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:113>
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_2;
+		L_2 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(__this, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_3 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_3, __this, (intptr_t)((void*)XRLever_EndGrab_m1B9DA5DD2083DBC832CF4BB25FC1739B52872021_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B(L_2, L_3, UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:114>
+		XRBaseInteractable_OnDisable_m4379F5DC4C8CCA4C151FB564530ABC5831F1F3BC(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:115>
+		return;
+	}
+}
+// Method Definition Index: 77194
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_StartGrab_m3546A1894506795A821042FABC3328880357FB4A (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* ___0_args, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:119>
+		SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* L_0 = ___0_args;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = SelectEnterEventArgs_get_interactorObject_mDBBDCE0D498FC768E0EC28C2E862C8FE5B32DE59(L_0, NULL);
+		__this->___m_Interactor = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Interactor), (void*)L_1);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:120>
+		return;
+	}
+}
+// Method Definition Index: 77195
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_EndGrab_m1B9DA5DD2083DBC832CF4BB25FC1739B52872021 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A* ___0_args, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:124>
+		bool L_0 = __this->___m_Value;
+		XRLever_SetValue_mDC69CA731001115DB1D6B073EFD0ED859652DFB9(__this, L_0, (bool)1, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:125>
+		__this->___m_Interactor = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Interactor), (void*)(RuntimeObject*)NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:126>
+		return;
+	}
+}
+// Method Definition Index: 77196
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_ProcessInteractable_m8CCE4D0C01A198A3A54E3BBE40CB2DDF7B8D1D3C (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, int32_t ___0_updatePhase, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:130>
+		int32_t L_0 = ___0_updatePhase;
+		XRBaseInteractable_ProcessInteractable_m3E6ED80E00620690E9FF53A8D6F76D329944C255(__this, L_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:132>
+		int32_t L_1 = ___0_updatePhase;
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:134>
+		bool L_3;
+		L_3 = XRBaseInteractable_get_isSelected_mCD9FBF9693629EBAE7BB0556377A45420C4E4DC1_inline(__this, NULL);
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:136>
+		XRLever_UpdateValue_m9E36BF1D16C71BEADDAB1BC298C8580663F989FA(__this, NULL);
+	}
+
+IL_0025:
+	{
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:139>
+		return;
+	}
+}
+// Method Definition Index: 77197
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRLever_GetLookDirection_m60D20489074AC4ADA156F2E6C6D58EA798D3A10B (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:143>
+		RuntimeObject* L_0 = __this->___m_Interactor;
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = InterfaceFuncInvoker1< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, RuntimeObject* >::Invoke(7, IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var, L_0, __this);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_Handle;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_2, L_4, NULL);
+		V_0 = L_5;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:144>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575(L_6, L_7, NULL);
+		V_0 = L_8;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:145>
+		(&V_0)->___x = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:147>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_0), NULL);
+		V_1 = L_9;
+		goto IL_0046;
+	}
+
+IL_0046:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:148>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_1;
+		return L_10;
+	}
+}
+// Method Definition Index: 77198
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_UpdateValue_m9E36BF1D16C71BEADDAB1BC298C8580663F989FA (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:152>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = XRLever_GetLookDirection_m60D20489074AC4ADA156F2E6C6D58EA798D3A10B(__this, NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:153>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		float L_2 = L_1.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = V_0;
+		float L_4 = L_3.___y;
+		float L_5;
+		L_5 = atan2f(L_2, L_4);
+		V_1 = ((float)il2cpp_codegen_multiply(L_5, (57.2957802f)));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:155>
+		float L_6 = __this->___m_MinAngle;
+		float L_7 = __this->___m_MaxAngle;
+		V_5 = (bool)((((float)L_6) < ((float)L_7))? 1 : 0);
+		bool L_8 = V_5;
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:156>
+		float L_9 = V_1;
+		float L_10 = __this->___m_MinAngle;
+		float L_11 = __this->___m_MaxAngle;
+		float L_12;
+		L_12 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_9, L_10, L_11, NULL);
+		V_1 = L_12;
+		goto IL_005c;
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:158>
+		float L_13 = V_1;
+		float L_14 = __this->___m_MaxAngle;
+		float L_15 = __this->___m_MinAngle;
+		float L_16;
+		L_16 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_13, L_14, L_15, NULL);
+		V_1 = L_16;
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:160>
+		float L_17 = __this->___m_MaxAngle;
+		float L_18 = V_1;
+		float L_19;
+		L_19 = fabsf(((float)il2cpp_codegen_subtract(L_17, L_18)));
+		V_2 = L_19;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:161>
+		float L_20 = __this->___m_MinAngle;
+		float L_21 = V_1;
+		float L_22;
+		L_22 = fabsf(((float)il2cpp_codegen_subtract(L_20, L_21)));
+		V_3 = L_22;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:163>
+		bool L_23 = __this->___m_Value;
+		V_6 = L_23;
+		bool L_24 = V_6;
+		if (!L_24)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:164>
+		float L_25 = V_2;
+		V_2 = ((float)il2cpp_codegen_multiply(L_25, (0.899999976f)));
+		goto IL_0096;
+	}
+
+IL_008e:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:166>
+		float L_26 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_26, (0.899999976f)));
+	}
+
+IL_0096:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:168>
+		float L_27 = V_2;
+		float L_28 = V_3;
+		V_4 = (bool)((((float)L_27) < ((float)L_28))? 1 : 0);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:170>
+		float L_29 = V_1;
+		XRLever_SetHandleAngle_m3717163640DE65E1A3456084C0F3A79C67E85D5E(__this, L_29, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:172>
+		bool L_30 = V_4;
+		XRLever_SetValue_mDC69CA731001115DB1D6B073EFD0ED859652DFB9(__this, L_30, (bool)0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:173>
+		return;
+	}
+}
+// Method Definition Index: 77199
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_SetValue_mDC69CA731001115DB1D6B073EFD0ED859652DFB9 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, bool ___0_isOn, bool ___1_forceRotation, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* G_B4_0 = NULL;
+	XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* G_B3_0 = NULL;
+	float G_B5_0 = 0.0f;
+	XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* G_B5_1 = NULL;
+	int32_t G_B13_0 = 0;
+	XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* G_B16_0 = NULL;
+	XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* G_B15_0 = NULL;
+	float G_B17_0 = 0.0f;
+	XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* G_B17_1 = NULL;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:177>
+		bool L_0 = __this->___m_Value;
+		bool L_1 = ___0_isOn;
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:179>
+		bool L_3 = ___1_forceRotation;
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:180>
+		bool L_5 = __this->___m_Value;
+		if (L_5)
+		{
+			G_B4_0 = __this;
+			goto IL_0025;
+		}
+		G_B3_0 = __this;
+	}
+	{
+		float L_6 = __this->___m_MinAngle;
+		G_B5_0 = L_6;
+		G_B5_1 = G_B3_0;
+		goto IL_002b;
+	}
+
+IL_0025:
+	{
+		float L_7 = __this->___m_MaxAngle;
+		G_B5_0 = L_7;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_002b:
+	{
+		NullCheck(G_B5_1);
+		XRLever_SetHandleAngle_m3717163640DE65E1A3456084C0F3A79C67E85D5E(G_B5_1, G_B5_0, NULL);
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:182>
+		goto IL_0096;
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:185>
+		bool L_8 = ___0_isOn;
+		__this->___m_Value = L_8;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:187>
+		bool L_9 = __this->___m_Value;
+		V_2 = L_9;
+		bool L_10 = V_2;
+		if (!L_10)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:189>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_11 = __this->___m_OnLeverActivate;
+		NullCheck(L_11);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_11, NULL);
+		goto IL_0062;
+	}
+
+IL_0054:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:193>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_12 = __this->___m_OnLeverDeactivate;
+		NullCheck(L_12);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_12, NULL);
+	}
+
+IL_0062:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:196>
+		bool L_13;
+		L_13 = XRBaseInteractable_get_isSelected_mCD9FBF9693629EBAE7BB0556377A45420C4E4DC1_inline(__this, NULL);
+		if (L_13)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		bool L_14 = __this->___m_LockToValue;
+		bool L_15 = ___1_forceRotation;
+		G_B13_0 = ((int32_t)((int32_t)L_14|(int32_t)L_15));
+		goto IL_0075;
+	}
+
+IL_0074:
+	{
+		G_B13_0 = 0;
+	}
+
+IL_0075:
+	{
+		V_3 = (bool)G_B13_0;
+		bool L_16 = V_3;
+		if (!L_16)
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:197>
+		bool L_17 = __this->___m_Value;
+		if (L_17)
+		{
+			G_B16_0 = __this;
+			goto IL_008a;
+		}
+		G_B15_0 = __this;
+	}
+	{
+		float L_18 = __this->___m_MinAngle;
+		G_B17_0 = L_18;
+		G_B17_1 = G_B15_0;
+		goto IL_0090;
+	}
+
+IL_008a:
+	{
+		float L_19 = __this->___m_MaxAngle;
+		G_B17_0 = L_19;
+		G_B17_1 = G_B16_0;
+	}
+
+IL_0090:
+	{
+		NullCheck(G_B17_1);
+		XRLever_SetHandleAngle_m3717163640DE65E1A3456084C0F3A79C67E85D5E(G_B17_1, G_B17_0, NULL);
+	}
+
+IL_0096:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:198>
+		return;
+	}
+}
+// Method Definition Index: 77200
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_SetHandleAngle_m3717163640DE65E1A3456084C0F3A79C67E85D5E (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, float ___0_angle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:202>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_Handle;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:203>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_Handle;
+		float L_4 = ___0_angle;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
+		L_5 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_4, (0.0f), (0.0f), NULL);
+		NullCheck(L_3);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_3, L_5, NULL);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:204>
+		return;
+	}
+}
+// Method Definition Index: 77201
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_OnDrawGizmosSelected_m4AEEE83ED7BE1CCDF1FD2B4C6F33ABB7D7DDA621 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:208>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:210>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___m_Handle;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_3 = L_3;
+		bool L_4 = V_3;
+		if (!L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:211>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___m_Handle;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		V_0 = L_6;
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:215>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		float L_9 = __this->___m_MaxAngle;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10;
+		L_10 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_9, (0.0f), (0.0f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_10, L_11, NULL);
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_8, L_12, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_13, (0.25f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_7, L_14, NULL);
+		V_1 = L_15;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:216>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
+		L_17 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		float L_18 = __this->___m_MinAngle;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19;
+		L_19 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_18, (0.0f), (0.0f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_19, L_20, NULL);
+		NullCheck(L_17);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_17, L_21, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_22, (0.25f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_16, L_23, NULL);
+		V_2 = L_24;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:218>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25;
+		L_25 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_25, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:219>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_1;
+		Gizmos_DrawLine_mB139054F55D615637A39A3127AADB16043387F8A(L_26, L_27, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:221>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28;
+		L_28 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_28, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:222>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_2;
+		Gizmos_DrawLine_mB139054F55D615637A39A3127AADB16043387F8A(L_29, L_30, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:223>
+		return;
+	}
+}
+// Method Definition Index: 77202
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever_OnValidate_m033DF9CB5675C2270E73CF717BEF4B99BD55C770 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* G_B2_0 = NULL;
+	XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* G_B1_0 = NULL;
+	float G_B3_0 = 0.0f;
+	XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* G_B3_1 = NULL;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:227>
+		bool L_0 = __this->___m_Value;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0012;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		float L_1 = __this->___m_MinAngle;
+		G_B3_0 = L_1;
+		G_B3_1 = G_B1_0;
+		goto IL_0018;
+	}
+
+IL_0012:
+	{
+		float L_2 = __this->___m_MaxAngle;
+		G_B3_0 = L_2;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0018:
+	{
+		NullCheck(G_B3_1);
+		XRLever_SetHandleAngle_m3717163640DE65E1A3456084C0F3A79C67E85D5E(G_B3_1, G_B3_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:228>
+		return;
+	}
+}
+// Method Definition Index: 77203
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLever__ctor_m95F423400F548FF5BB4A2FCC7F157A9047D08E51 (XRLever_t4B47F0D1FA640CD4039834A6E98DB3B6E3821510* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:17>
+		__this->___m_Handle = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Handle), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:21>
+		__this->___m_Value = (bool)0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:30>
+		__this->___m_MaxAngle = (90.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:35>
+		__this->___m_MinAngle = (-90.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:39>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
+		__this->___m_OnLeverActivate = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnLeverActivate), (void*)L_0);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs:43>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_1, NULL);
+		__this->___m_OnLeverDeactivate = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnLeverDeactivate), (void*)L_1);
+		il2cpp_codegen_runtime_class_init_inline(XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_il2cpp_TypeInfo_var);
+		XRBaseInteractable__ctor_m0BA492AFD3DCFBF74ED2FE4B513644F213CCACBF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77204
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XRPushButton_get_button_m3AC0BBA87D91B9EE7CBDB5744A71C27D91B26694 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:73>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_Button;
+		return L_0;
+	}
+}
+// Method Definition Index: 77205
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_set_button_mE5F8503A2C4DBEF54F302B3316225C2470DACB85 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:74>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_value;
+		__this->___m_Button = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Button), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 77206
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRPushButton_get_pressDistance_m04FD3DEFD22D628F5C5DA729D2F40A9CEF4DFB0C (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:82>
+		float L_0 = __this->___m_PressDistance;
+		return L_0;
+	}
+}
+// Method Definition Index: 77207
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_set_pressDistance_mF7C54FEE2ED2735679ED6D6CE9404E000C9E05EA (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:83>
+		float L_0 = ___0_value;
+		__this->___m_PressDistance = L_0;
+		return;
+	}
+}
+// Method Definition Index: 77208
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRPushButton_get_value_m345BB8EFF122A48A832AA377B60532777751A328 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:89>
+		float L_0 = __this->___m_Value;
+		return L_0;
+	}
+}
+// Method Definition Index: 77209
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* XRPushButton_get_onPress_mBF0BE1B70DAFB6EC67934B1080FAD0C1B9B02AC0 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:94>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___m_OnPress;
+		return L_0;
+	}
+}
+// Method Definition Index: 77210
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* XRPushButton_get_onRelease_m7B6751EE5D5EC96F8D6F262FFA9A31DB42CFBE55 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:99>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___m_OnRelease;
+		return L_0;
+	}
+}
+// Method Definition Index: 77211
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueChangeEvent_t6ABB63D6EC8E3745851A79F2AA32B8550933F214* XRPushButton_get_onValueChange_mC59782A7E7E98828029249D8C304C21F396621A7 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:104>
+		ValueChangeEvent_t6ABB63D6EC8E3745851A79F2AA32B8550933F214* L_0 = __this->___m_OnValueChange;
+		return L_0;
+	}
+}
+// Method Definition Index: 77212
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPushButton_get_toggleValue_m037879BE9FB7D25D8CBD1FD4B7A810D1B38D7C09 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:111>
+		bool L_0 = __this->___m_ToggleButton;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->___m_Toggled;
+		G_B3_0 = ((int32_t)(L_1));
+		goto IL_0011;
+	}
+
+IL_0010:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0011:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// Method Definition Index: 77213
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_set_toggleValue_mFC816F2B6C597A72551E524BBEB03A106DEDB2F1 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:114>
+		bool L_0 = __this->___m_ToggleButton;
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:115>
+		goto IL_003d;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:117>
+		bool L_2 = ___0_value;
+		__this->___m_Toggled = L_2;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:118>
+		bool L_3 = __this->___m_Toggled;
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:119>
+		float L_5 = __this->___m_PressDistance;
+		XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6(__this, ((-L_5)), NULL);
+		goto IL_003d;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:121>
+		XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6(__this, (0.0f), NULL);
+	}
+
+IL_003d:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:122>
+		return;
+	}
+}
+// Method Definition Index: 77214
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPushButton_IsHoverableBy_m40CF1EAF58A9CB7950BC310E2476B8E1A59A19BA (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, RuntimeObject* ___0_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:127>
+		RuntimeObject* L_0 = ___0_interactor;
+		V_0 = (bool)((!(((RuntimeObject*)(XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649*)((XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649*)IsInstClass((RuntimeObject*)L_0, XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:128>
+		V_1 = (bool)0;
+		goto IL_001c;
+	}
+
+IL_0012:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:130>
+		RuntimeObject* L_2 = ___0_interactor;
+		bool L_3;
+		L_3 = XRBaseInteractable_IsHoverableBy_m0A14C6D89663AB0FE8056F998161272E0B584583(__this, L_2, NULL);
+		V_1 = L_3;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:131>
+		bool L_4 = V_1;
+		return L_4;
+	}
+}
+// Method Definition Index: 77215
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_Start_m223746CF20D6979F62B77951D69DD249B789FF44 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:135>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_Button;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:136>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_Button;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		__this->___m_BaseButtonPosition = L_4;
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:137>
+		return;
+	}
+}
+// Method Definition Index: 77216
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_OnEnable_mEAD16D16110DBF83BF6875C8992B22745DE3DFCA (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRPushButton_EndHover_mDE942B9C5F9E34BFA025F383C0DFFDF108868BAB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRPushButton_StartHover_m9483BD357F3CB7CA4380BFAA8CB7D42D0AEA2D44_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:141>
+		XRBaseInteractable_OnEnable_mCF208B5D87E5C2192D9967D39B534B4D556726B1(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:143>
+		bool L_0 = __this->___m_Toggled;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:144>
+		float L_2 = __this->___m_PressDistance;
+		XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6(__this, ((-L_2)), NULL);
+		goto IL_002e;
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:146>
+		XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6(__this, (0.0f), NULL);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:148>
+		HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* L_3;
+		L_3 = XRBaseInteractable_get_hoverEntered_m1CB558A7FA4272B1BF48908D5B7EDE21183538D0_inline(__this, NULL);
+		UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906* L_4 = (UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906*)il2cpp_codegen_object_new(UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3C8E30AEA90302CA8E564E339058E839E40196F4(L_4, __this, (intptr_t)((void*)XRPushButton_StartHover_m9483BD357F3CB7CA4380BFAA8CB7D42D0AEA2D44_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F(L_3, L_4, UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:149>
+		HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* L_5;
+		L_5 = XRBaseInteractable_get_hoverExited_m29ADA63D5D840CF95963EFD454E48045CDC009F1_inline(__this, NULL);
+		UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B* L_6 = (UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B*)il2cpp_codegen_object_new(UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m917A650EF730B0F8CDB9227A03A45B24FB54BCF8(L_6, __this, (intptr_t)((void*)XRPushButton_EndHover_mDE942B9C5F9E34BFA025F383C0DFFDF108868BAB_RuntimeMethod_var), NULL);
+		NullCheck(L_5);
+		UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722(L_5, L_6, UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:150>
+		return;
+	}
+}
+// Method Definition Index: 77217
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_OnDisable_m5D35E3F3F91256002ACE66B0C4CD06ECE4FC960B (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m171EFC9F72CB58EDA4139097DDCA155A3D9C7D33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRPushButton_EndHover_mDE942B9C5F9E34BFA025F383C0DFFDF108868BAB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRPushButton_StartHover_m9483BD357F3CB7CA4380BFAA8CB7D42D0AEA2D44_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:154>
+		HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* L_0;
+		L_0 = XRBaseInteractable_get_hoverEntered_m1CB558A7FA4272B1BF48908D5B7EDE21183538D0_inline(__this, NULL);
+		UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906* L_1 = (UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906*)il2cpp_codegen_object_new(UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3C8E30AEA90302CA8E564E339058E839E40196F4(L_1, __this, (intptr_t)((void*)XRPushButton_StartHover_m9483BD357F3CB7CA4380BFAA8CB7D42D0AEA2D44_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		UnityEvent_1_RemoveListener_m171EFC9F72CB58EDA4139097DDCA155A3D9C7D33(L_0, L_1, UnityEvent_1_RemoveListener_m171EFC9F72CB58EDA4139097DDCA155A3D9C7D33_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:155>
+		HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* L_2;
+		L_2 = XRBaseInteractable_get_hoverExited_m29ADA63D5D840CF95963EFD454E48045CDC009F1_inline(__this, NULL);
+		UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B* L_3 = (UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B*)il2cpp_codegen_object_new(UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m917A650EF730B0F8CDB9227A03A45B24FB54BCF8(L_3, __this, (intptr_t)((void*)XRPushButton_EndHover_mDE942B9C5F9E34BFA025F383C0DFFDF108868BAB_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78(L_2, L_3, UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:156>
+		XRBaseInteractable_OnDisable_m4379F5DC4C8CCA4C151FB564530ABC5831F1F3BC(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:157>
+		return;
+	}
+}
+// Method Definition Index: 77218
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_StartHover_m9483BD357F3CB7CA4380BFAA8CB7D42D0AEA2D44 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E* ___0_args, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m02AA5CDD34AC664726505A362E8733340BAE6410_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:161>
+		Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* L_0 = __this->___m_HoveringInteractors;
+		HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E* L_1 = ___0_args;
+		NullCheck(L_1);
+		RuntimeObject* L_2;
+		L_2 = HoverEnterEventArgs_get_interactorObject_mB6D0A7601D6494ECB1DE395059EC9A22354B5361(L_1, NULL);
+		PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* L_3 = (PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C*)il2cpp_codegen_object_new(PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C_il2cpp_TypeInfo_var);
+		PressInfo__ctor_m772C95227A64BD660EBF391384EED3B0BEFCFC15(L_3, NULL);
+		PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* L_4 = L_3;
+		HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E* L_5 = ___0_args;
+		NullCheck(L_5);
+		RuntimeObject* L_6;
+		L_6 = HoverEnterEventArgs_get_interactorObject_mB6D0A7601D6494ECB1DE395059EC9A22354B5361(L_5, NULL);
+		NullCheck(L_4);
+		L_4->___m_Interactor = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___m_Interactor), (void*)L_6);
+		NullCheck(L_0);
+		Dictionary_2_Add_m02AA5CDD34AC664726505A362E8733340BAE6410(L_0, L_2, L_4, Dictionary_2_Add_m02AA5CDD34AC664726505A362E8733340BAE6410_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:162>
+		return;
+	}
+}
+// Method Definition Index: 77219
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_EndHover_mDE942B9C5F9E34BFA025F383C0DFFDF108868BAB (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, HoverExitEventArgs_tFFBECDDAF90BF90AA3B7282FAEF1D8E5D19A5AD6* ___0_args, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mB7F77F5BCF183D3803194FB248BD80DE73FB6937_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Count_m4A33E8EB457ABC12877C3022843C5C1E98ABD04A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t G_B4_0 = 0;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:166>
+		Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* L_0 = __this->___m_HoveringInteractors;
+		HoverExitEventArgs_tFFBECDDAF90BF90AA3B7282FAEF1D8E5D19A5AD6* L_1 = ___0_args;
+		NullCheck(L_1);
+		RuntimeObject* L_2;
+		L_2 = HoverExitEventArgs_get_interactorObject_m1522F764C3599C40F6A81D1D1717ADD5B15D27D7(L_1, NULL);
+		NullCheck(L_0);
+		bool L_3;
+		L_3 = Dictionary_2_Remove_mB7F77F5BCF183D3803194FB248BD80DE73FB6937(L_0, L_2, Dictionary_2_Remove_mB7F77F5BCF183D3803194FB248BD80DE73FB6937_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:168>
+		Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* L_4 = __this->___m_HoveringInteractors;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Dictionary_2_get_Count_m4A33E8EB457ABC12877C3022843C5C1E98ABD04A(L_4, Dictionary_2_get_Count_m4A33E8EB457ABC12877C3022843C5C1E98ABD04A_RuntimeMethod_var);
+		V_0 = (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
+		bool L_6 = V_0;
+		if (!L_6)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:170>
+		bool L_7 = __this->___m_ToggleButton;
+		if (!L_7)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		bool L_8 = __this->___m_Toggled;
+		G_B4_0 = ((int32_t)(L_8));
+		goto IL_0037;
+	}
+
+IL_0036:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0037:
+	{
+		V_1 = (bool)G_B4_0;
+		bool L_9 = V_1;
+		if (!L_9)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:171>
+		float L_10 = __this->___m_PressDistance;
+		XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6(__this, ((-L_10)), NULL);
+		goto IL_0057;
+	}
+
+IL_004b:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:173>
+		XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6(__this, (0.0f), NULL);
+	}
+
+IL_0057:
+	{
+	}
+
+IL_0058:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:175>
+		return;
+	}
+}
+// Method Definition Index: 77220
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_ProcessInteractable_m4C2CE6AA75532791DC9DBA9C88B96DD08B889799 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, int32_t ___0_updatePhase, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Count_m4A33E8EB457ABC12877C3022843C5C1E98ABD04A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:179>
+		int32_t L_0 = ___0_updatePhase;
+		XRBaseInteractable_ProcessInteractable_m3E6ED80E00620690E9FF53A8D6F76D329944C255(__this, L_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:181>
+		int32_t L_1 = ___0_updatePhase;
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:183>
+		Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* L_3 = __this->___m_HoveringInteractors;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Dictionary_2_get_Count_m4A33E8EB457ABC12877C3022843C5C1E98ABD04A(L_3, Dictionary_2_get_Count_m4A33E8EB457ABC12877C3022843C5C1E98ABD04A_RuntimeMethod_var);
+		V_1 = (bool)((((int32_t)L_4) > ((int32_t)0))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:185>
+		XRPushButton_UpdatePress_m3ED769AB20F6E97BFAFAD1D5E05114F3A7589906(__this, NULL);
+	}
+
+IL_002d:
+	{
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:188>
+		return;
+	}
+}
+// Method Definition Index: 77221
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_UpdatePress_m3ED769AB20F6E97BFAFAD1D5E05114F3A7589906 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Values_mC0B53B07465A1D46383EBE00A066BBC51A915945_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m6E8A7996911878F82C01EEFB8D0E555EF19CED24_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m8987A1CA8F76050CE11D3609C83FE388918398CA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mC40C4FCCF3AFE6ED01AE797C9B1141F1841CF44E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueCollection_GetEnumerator_mE79662250CA098A7D61E56787F832285D9E49875_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	bool V_3 = false;
+	Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* V_5 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_6 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	int32_t G_B3_0 = 0;
+	int32_t G_B10_0 = 0;
+	int32_t G_B23_0 = 0;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:192>
+		V_0 = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:194>
+		bool L_0 = __this->___m_ToggleButton;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		bool L_1 = __this->___m_Toggled;
+		G_B3_0 = ((int32_t)(L_1));
+		goto IL_0018;
+	}
+
+IL_0017:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0018:
+	{
+		V_3 = (bool)G_B3_0;
+		bool L_2 = V_3;
+		if (!L_2)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:195>
+		float L_3 = __this->___m_PressDistance;
+		V_0 = ((-L_3));
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:198>
+		Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* L_4 = __this->___m_HoveringInteractors;
+		NullCheck(L_4);
+		ValueCollection_t7F3B6DFB66C532ADCF3FC10914E7852FA60AFAEB* L_5;
+		L_5 = Dictionary_2_get_Values_mC0B53B07465A1D46383EBE00A066BBC51A915945(L_4, Dictionary_2_get_Values_mC0B53B07465A1D46383EBE00A066BBC51A915945_RuntimeMethod_var);
+		NullCheck(L_5);
+		Enumerator_t409533449E4A96320C465FDC90A38D68E92B559A L_6;
+		L_6 = ValueCollection_GetEnumerator_mE79662250CA098A7D61E56787F832285D9E49875(L_5, ValueCollection_GetEnumerator_mE79662250CA098A7D61E56787F832285D9E49875_RuntimeMethod_var);
+		V_4 = L_6;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0110:
+			{
+				Enumerator_Dispose_m6E8A7996911878F82C01EEFB8D0E555EF19CED24((&V_4), Enumerator_Dispose_m6E8A7996911878F82C01EEFB8D0E555EF19CED24_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0102_1;
+			}
+
+IL_003c_1:
+			{
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:198>
+				PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* L_7;
+				L_7 = Enumerator_get_Current_mC40C4FCCF3AFE6ED01AE797C9B1141F1841CF44E_inline((&V_4), Enumerator_get_Current_mC40C4FCCF3AFE6ED01AE797C9B1141F1841CF44E_RuntimeMethod_var);
+				V_5 = L_7;
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:200>
+				PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* L_8 = V_5;
+				NullCheck(L_8);
+				RuntimeObject* L_9 = L_8->___m_Interactor;
+				NullCheck(L_9);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+				L_10 = InterfaceFuncInvoker1< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, RuntimeObject* >::Invoke(7, IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var, L_9, __this);
+				V_6 = L_10;
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:201>
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+				L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = V_6;
+				NullCheck(L_12);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+				L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = __this->___m_BaseButtonPosition;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+				L_15 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_13, L_14, NULL);
+				NullCheck(L_11);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+				L_16 = Transform_InverseTransformVector_mBBA687CE32C0394FC9AB4F273D4E4A11F53FB044(L_11, L_15, NULL);
+				V_7 = L_16;
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:203>
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_7;
+				float L_18 = L_17.___x;
+				float L_19;
+				L_19 = fabsf(L_18);
+				float L_20 = __this->___m_ButtonSize;
+				if ((!(((float)L_19) < ((float)L_20))))
+				{
+					goto IL_009e_1;
+				}
+			}
+			{
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_7;
+				float L_22 = L_21.___z;
+				float L_23;
+				L_23 = fabsf(L_22);
+				float L_24 = __this->___m_ButtonSize;
+				G_B10_0 = ((((float)L_23) < ((float)L_24))? 1 : 0);
+				goto IL_009f_1;
+			}
+
+IL_009e_1:
+			{
+				G_B10_0 = 0;
+			}
+
+IL_009f_1:
+			{
+				V_8 = (bool)G_B10_0;
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:204>
+				bool L_25 = V_8;
+				V_9 = L_25;
+				bool L_26 = V_9;
+				if (!L_26)
+				{
+					goto IL_00f8_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:206>
+				PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* L_27 = V_5;
+				NullCheck(L_27);
+				bool L_28 = L_27->___m_InPressRegion;
+				V_10 = (bool)((((int32_t)L_28) == ((int32_t)0))? 1 : 0);
+				bool L_29 = V_10;
+				if (!L_29)
+				{
+					goto IL_00d2_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:208>
+				PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* L_30 = V_5;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_7;
+				float L_32 = L_31.___y;
+				float L_33 = __this->___m_ButtonOffset;
+				NullCheck(L_30);
+				L_30->___m_WrongSide = (bool)((((float)L_32) < ((float)L_33))? 1 : 0);
+			}
+
+IL_00d2_1:
+			{
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:211>
+				PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* L_34 = V_5;
+				NullCheck(L_34);
+				bool L_35 = L_34->___m_WrongSide;
+				V_11 = (bool)((((int32_t)L_35) == ((int32_t)0))? 1 : 0);
+				bool L_36 = V_11;
+				if (!L_36)
+				{
+					goto IL_00f7_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:212>
+				float L_37 = V_0;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_7;
+				float L_39 = L_38.___y;
+				float L_40 = __this->___m_ButtonOffset;
+				float L_41;
+				L_41 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_37, ((float)il2cpp_codegen_subtract(L_39, L_40)), NULL);
+				V_0 = L_41;
+			}
+
+IL_00f7_1:
+			{
+			}
+
+IL_00f8_1:
+			{
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:215>
+				PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* L_42 = V_5;
+				bool L_43 = V_8;
+				NullCheck(L_42);
+				L_42->___m_InPressRegion = L_43;
+			}
+
+IL_0102_1:
+			{
+				//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:198>
+				bool L_44;
+				L_44 = Enumerator_MoveNext_m8987A1CA8F76050CE11D3609C83FE388918398CA((&V_4), Enumerator_MoveNext_m8987A1CA8F76050CE11D3609C83FE388918398CA_RuntimeMethod_var);
+				if (L_44)
+				{
+					goto IL_003c_1;
+				}
+			}
+			{
+				goto IL_011f;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_011f:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:218>
+		float L_45 = V_0;
+		float L_46 = __this->___m_PressDistance;
+		float L_47 = __this->___m_PressBuffer;
+		float L_48;
+		L_48 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_45, ((-((float)il2cpp_codegen_add(L_46, L_47)))), NULL);
+		V_0 = L_48;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:221>
+		bool L_49 = __this->___m_ToggleButton;
+		if (L_49)
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		float L_50 = V_0;
+		float L_51 = __this->___m_PressDistance;
+		G_B23_0 = ((((float)L_50) < ((float)((-L_51))))? 1 : 0);
+		goto IL_015c;
+	}
+
+IL_0148:
+	{
+		float L_52 = V_0;
+		float L_53 = __this->___m_PressDistance;
+		float L_54 = __this->___m_PressBuffer;
+		G_B23_0 = ((((int32_t)((!(((float)L_52) <= ((float)((-((float)il2cpp_codegen_add(L_53, L_54)))))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_015c:
+	{
+		V_1 = (bool)G_B23_0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:223>
+		float L_55 = V_0;
+		float L_56 = __this->___m_PressBuffer;
+		float L_57;
+		L_57 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(((-L_55)), L_56)), NULL);
+		V_2 = L_57;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:224>
+		float L_58 = V_2;
+		float L_59 = __this->___m_PressDistance;
+		__this->___m_Value = ((float)(L_58/L_59));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:226>
+		bool L_60 = __this->___m_ToggleButton;
+		V_12 = L_60;
+		bool L_61 = V_12;
+		if (!L_61)
+		{
+			goto IL_01de;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:228>
+		bool L_62 = V_1;
+		V_13 = L_62;
+		bool L_63 = V_13;
+		if (!L_63)
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:230>
+		bool L_64 = __this->___m_Pressed;
+		V_14 = (bool)((((int32_t)L_64) == ((int32_t)0))? 1 : 0);
+		bool L_65 = V_14;
+		if (!L_65)
+		{
+			goto IL_01da;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:232>
+		bool L_66 = __this->___m_Toggled;
+		__this->___m_Toggled = (bool)((((int32_t)L_66) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:234>
+		bool L_67 = __this->___m_Toggled;
+		V_15 = L_67;
+		bool L_68 = V_15;
+		if (!L_68)
+		{
+			goto IL_01cd;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:235>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_69 = __this->___m_OnPress;
+		NullCheck(L_69);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_69, NULL);
+		goto IL_01d9;
+	}
+
+IL_01cd:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:237>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_70 = __this->___m_OnRelease;
+		NullCheck(L_70);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_70, NULL);
+	}
+
+IL_01d9:
+	{
+	}
+
+IL_01da:
+	{
+	}
+
+IL_01db:
+	{
+		goto IL_0220;
+	}
+
+IL_01de:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:243>
+		bool L_71 = V_1;
+		V_16 = L_71;
+		bool L_72 = V_16;
+		if (!L_72)
+		{
+			goto IL_0205;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:245>
+		bool L_73 = __this->___m_Pressed;
+		V_17 = (bool)((((int32_t)L_73) == ((int32_t)0))? 1 : 0);
+		bool L_74 = V_17;
+		if (!L_74)
+		{
+			goto IL_0202;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:246>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_75 = __this->___m_OnPress;
+		NullCheck(L_75);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_75, NULL);
+	}
+
+IL_0202:
+	{
+		goto IL_021f;
+	}
+
+IL_0205:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:250>
+		bool L_76 = __this->___m_Pressed;
+		V_18 = L_76;
+		bool L_77 = V_18;
+		if (!L_77)
+		{
+			goto IL_021e;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:251>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_78 = __this->___m_OnRelease;
+		NullCheck(L_78);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_78, NULL);
+	}
+
+IL_021e:
+	{
+	}
+
+IL_021f:
+	{
+	}
+
+IL_0220:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:254>
+		bool L_79 = V_1;
+		__this->___m_Pressed = L_79;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:257>
+		bool L_80 = __this->___m_Pressed;
+		V_19 = L_80;
+		bool L_81 = V_19;
+		if (!L_81)
+		{
+			goto IL_0245;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:258>
+		ValueChangeEvent_t6ABB63D6EC8E3745851A79F2AA32B8550933F214* L_82 = __this->___m_OnValueChange;
+		float L_83 = __this->___m_Value;
+		NullCheck(L_82);
+		UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805(L_82, L_83, UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var);
+	}
+
+IL_0245:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:260>
+		float L_84 = V_0;
+		XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6(__this, L_84, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:261>
+		return;
+	}
+}
+// Method Definition Index: 77222
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, float ___0_height, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:265>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_Button;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_1;
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:266>
+		goto IL_0034;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:268>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_Button;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_3, NULL);
+		V_0 = L_4;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:269>
+		float L_5 = ___0_height;
+		(&V_0)->___y = L_5;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:270>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___m_Button;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		NullCheck(L_6);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_6, L_7, NULL);
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:271>
+		return;
+	}
+}
+// Method Definition Index: 77223
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_OnDrawGizmosSelected_mC9E10B907162EBF3803EAD773A5EA581EF8D76D7 (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:275>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:277>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___m_Button;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_2;
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:279>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___m_Button;
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_4, NULL);
+		V_0 = L_5;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:282>
+		float* L_6 = (float*)(&(&V_0)->___y);
+		float* L_7 = L_6;
+		float L_8 = *((float*)L_7);
+		float L_9 = __this->___m_ButtonOffset;
+		float L_10 = __this->___m_PressDistance;
+		*((float*)L_7) = (float)((float)il2cpp_codegen_add(L_8, ((float)il2cpp_codegen_subtract(L_9, ((float)il2cpp_codegen_multiply(L_10, (0.5f)))))));
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:284>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11;
+		L_11 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_11, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:285>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_12);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_13;
+		L_13 = Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D(L_12, NULL);
+		Gizmos_set_matrix_m100B4ACA7FBDFF65CE1BD0000E9E0D7566147A15(L_13, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:286>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_0;
+		float L_15 = __this->___m_ButtonSize;
+		float L_16 = __this->___m_PressDistance;
+		float L_17 = __this->___m_ButtonSize;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_18), L_15, L_16, L_17, NULL);
+		Gizmos_DrawWireCube_m343533B3955A2D04A8638280D0EF537274A1FD8B(L_14, L_18, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:287>
+		return;
+	}
+}
+// Method Definition Index: 77224
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton_OnValidate_mE1307C6FFC39A82E1A3C9CA558F22D95AAE41A0C (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:291>
+		XRPushButton_SetButtonHeight_mB6E99F952CB40DDF4A21BF999CBB74A6E7A9B0D6(__this, (0.0f), NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:292>
+		return;
+	}
+}
+// Method Definition Index: 77225
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPushButton__ctor_m8DF438AA2D6C1AD0735FDF04F72D039F51EE02AF (XRPushButton_t7CB9021CB94F13079A4E33251ED2F2D6E66D8DF3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m268F093D61B7FEDB0D0F36F35985D41DEC9E6430_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:27>
+		__this->___m_Button = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Button), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:31>
+		__this->___m_PressDistance = (0.100000001f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:35>
+		__this->___m_PressBuffer = (0.00999999978f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:39>
+		__this->___m_ButtonOffset = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:43>
+		__this->___m_ButtonSize = (0.100000001f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:47>
+		__this->___m_ToggleButton = (bool)0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:61>
+		__this->___m_Pressed = (bool)0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:62>
+		__this->___m_Toggled = (bool)0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:63>
+		__this->___m_Value = (0.0f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:64>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		__this->___m_BaseButtonPosition = L_0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:66>
+		Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA* L_1 = (Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA*)il2cpp_codegen_object_new(Dictionary_2_tE028FBF21AB87722B4B28656ED62E8E6EC69F5CA_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m268F093D61B7FEDB0D0F36F35985D41DEC9E6430(L_1, Dictionary_2__ctor_m268F093D61B7FEDB0D0F36F35985D41DEC9E6430_RuntimeMethod_var);
+		__this->___m_HoveringInteractors = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HoveringInteractors), (void*)L_1);
+		il2cpp_codegen_runtime_class_init_inline(XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_il2cpp_TypeInfo_var);
+		XRBaseInteractable__ctor_m0BA492AFD3DCFBF74ED2FE4B513644F213CCACBF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressInfo__ctor_m772C95227A64BD660EBF391384EED3B0BEFCFC15 (PressInfo_t4A65AE351F6D15B6D4CC343F6244021499EABF6C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:18>
+		__this->___m_InPressRegion = (bool)0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs:19>
+		__this->___m_WrongSide = (bool)0;
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77227
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueChangeEvent__ctor_mD835B61ABEA661F3D9E1532BA28B36DC4C11926B (ValueChangeEvent_t6ABB63D6EC8E3745851A79F2AA32B8550933F214* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422(__this, UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77228
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRSlider_get_value_m982492407CE6474075F5752970F18C3D9A9A6E03 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:45>
+		float L_0 = __this->___m_Value;
+		return L_0;
+	}
+}
+// Method Definition Index: 77229
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_set_value_m4E443CBC1E64A2AEAB4B67E008B0DB565946E2D5 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:48>
+		float L_0 = ___0_value;
+		XRSlider_SetValue_mDCA5611C423F4ACC175FF9622C1BC5B07310C465(__this, L_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:49>
+		float L_1 = ___0_value;
+		XRSlider_SetSliderPosition_m868C3A5C8660AB80D6080F1C4B8CD26148070B02(__this, L_1, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 77230
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD* XRSlider_get_onValueChange_m9EDED400A642BE1D728F58BAC0F9558315EB5B89 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:56>
+		ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD* L_0 = __this->___m_OnValueChange;
+		return L_0;
+	}
+}
+// Method Definition Index: 77231
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_Start_m5B7EBA3A78BE69A9FBCD18443642F6E02FFB08F5 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:60>
+		float L_0 = __this->___m_Value;
+		XRSlider_SetValue_mDCA5611C423F4ACC175FF9622C1BC5B07310C465(__this, L_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:61>
+		float L_1 = __this->___m_Value;
+		XRSlider_SetSliderPosition_m868C3A5C8660AB80D6080F1C4B8CD26148070B02(__this, L_1, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:62>
+		return;
+	}
+}
+// Method Definition Index: 77232
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_OnEnable_mD5F09516D73D82B1F64915F3DDE786707151C999 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSlider_EndGrab_mA9D239E474FB31C0D6909D28B51FAA0A6F2147D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSlider_StartGrab_m48F19B86B4802EE3275548105AE49B7F3C5CEF0E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:66>
+		XRBaseInteractable_OnEnable_mCF208B5D87E5C2192D9967D39B534B4D556726B1(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:67>
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_0;
+		L_0 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(__this, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_1 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_1, __this, (intptr_t)((void*)XRSlider_StartGrab_m48F19B86B4802EE3275548105AE49B7F3C5CEF0E_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_0, L_1, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:68>
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_2;
+		L_2 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(__this, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_3 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_3, __this, (intptr_t)((void*)XRSlider_EndGrab_mA9D239E474FB31C0D6909D28B51FAA0A6F2147D1_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602(L_2, L_3, UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:69>
+		return;
+	}
+}
+// Method Definition Index: 77233
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_OnDisable_mF0A6E46B79E603BDEA7085C8C35AF52953114F34 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSlider_EndGrab_mA9D239E474FB31C0D6909D28B51FAA0A6F2147D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSlider_StartGrab_m48F19B86B4802EE3275548105AE49B7F3C5CEF0E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:73>
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_0;
+		L_0 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(__this, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_1 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_1, __this, (intptr_t)((void*)XRSlider_StartGrab_m48F19B86B4802EE3275548105AE49B7F3C5CEF0E_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB(L_0, L_1, UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:74>
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_2;
+		L_2 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(__this, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_3 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_3, __this, (intptr_t)((void*)XRSlider_EndGrab_mA9D239E474FB31C0D6909D28B51FAA0A6F2147D1_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B(L_2, L_3, UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:75>
+		XRBaseInteractable_OnDisable_m4379F5DC4C8CCA4C151FB564530ABC5831F1F3BC(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 77234
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_StartGrab_m48F19B86B4802EE3275548105AE49B7F3C5CEF0E (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* ___0_args, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:80>
+		SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* L_0 = ___0_args;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = SelectEnterEventArgs_get_interactorObject_mDBBDCE0D498FC768E0EC28C2E862C8FE5B32DE59(L_0, NULL);
+		__this->___m_Interactor = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Interactor), (void*)L_1);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:81>
+		XRSlider_UpdateSliderPosition_m816CAAC7F9DAECFD0C0822B62B195B71680F4D87(__this, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:82>
+		return;
+	}
+}
+// Method Definition Index: 77235
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_EndGrab_mA9D239E474FB31C0D6909D28B51FAA0A6F2147D1 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A* ___0_args, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:86>
+		__this->___m_Interactor = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Interactor), (void*)(RuntimeObject*)NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:87>
+		return;
+	}
+}
+// Method Definition Index: 77236
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_ProcessInteractable_m1A2C82A08D7AEE301698505D8144BD400E0C723E (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, int32_t ___0_updatePhase, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:91>
+		int32_t L_0 = ___0_updatePhase;
+		XRBaseInteractable_ProcessInteractable_m3E6ED80E00620690E9FF53A8D6F76D329944C255(__this, L_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:93>
+		int32_t L_1 = ___0_updatePhase;
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:95>
+		bool L_3;
+		L_3 = XRBaseInteractable_get_isSelected_mCD9FBF9693629EBAE7BB0556377A45420C4E4DC1_inline(__this, NULL);
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:97>
+		XRSlider_UpdateSliderPosition_m816CAAC7F9DAECFD0C0822B62B195B71680F4D87(__this, NULL);
+	}
+
+IL_0025:
+	{
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:100>
+		return;
+	}
+}
+// Method Definition Index: 77237
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_UpdateSliderPosition_m816CAAC7F9DAECFD0C0822B62B195B71680F4D87 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:105>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		RuntimeObject* L_1 = __this->___m_Interactor;
+		NullCheck(L_1);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = InterfaceFuncInvoker1< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, RuntimeObject* >::Invoke(7, IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var, L_1, __this);
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_0, L_3, NULL);
+		V_0 = L_4;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:106>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		float L_6 = L_5.___z;
+		float L_7 = __this->___m_MinPosition;
+		float L_8 = __this->___m_MaxPosition;
+		float L_9 = __this->___m_MinPosition;
+		float L_10;
+		L_10 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)il2cpp_codegen_subtract(L_6, L_7))/((float)il2cpp_codegen_subtract(L_8, L_9)))), NULL);
+		V_1 = L_10;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:107>
+		float L_11 = V_1;
+		XRSlider_SetValue_mDCA5611C423F4ACC175FF9622C1BC5B07310C465(__this, L_11, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:108>
+		float L_12 = V_1;
+		XRSlider_SetSliderPosition_m868C3A5C8660AB80D6080F1C4B8CD26148070B02(__this, L_12, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:109>
+		return;
+	}
+}
+// Method Definition Index: 77238
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_SetSliderPosition_m868C3A5C8660AB80D6080F1C4B8CD26148070B02 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:113>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_Handle;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_1;
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:114>
+		goto IL_0045;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:116>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_Handle;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_3, NULL);
+		V_0 = L_4;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:117>
+		float L_5 = __this->___m_MinPosition;
+		float L_6 = __this->___m_MaxPosition;
+		float L_7 = ___0_value;
+		float L_8;
+		L_8 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_5, L_6, L_7, NULL);
+		(&V_0)->___z = L_8;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:118>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___m_Handle;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		NullCheck(L_9);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_9, L_10, NULL);
+	}
+
+IL_0045:
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:119>
+		return;
+	}
+}
+// Method Definition Index: 77239
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_SetValue_mDCA5611C423F4ACC175FF9622C1BC5B07310C465 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:123>
+		float L_0 = ___0_value;
+		__this->___m_Value = L_0;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:124>
+		ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD* L_1 = __this->___m_OnValueChange;
+		float L_2 = __this->___m_Value;
+		NullCheck(L_1);
+		UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805(L_1, L_2, UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:125>
+		return;
+	}
+}
+// Method Definition Index: 77240
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_OnDrawGizmosSelected_mC9D44438D48532214F4C8555CE756F8698B13B7D (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:129>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		float L_1 = __this->___m_MinPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2), (0.0f), (0.0f), L_1, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_0, L_2, NULL);
+		V_0 = L_3;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:130>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		float L_5 = __this->___m_MaxPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), (0.0f), (0.0f), L_5, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_4, L_6, NULL);
+		V_1 = L_7;
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:132>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8;
+		L_8 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_8, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:133>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_1;
+		Gizmos_DrawLine_mB139054F55D615637A39A3127AADB16043387F8A(L_9, L_10, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:134>
+		return;
+	}
+}
+// Method Definition Index: 77241
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider_OnValidate_mEBC5014B234B32BB1DE13EE5BBF3ABDAD6D0AD58 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:138>
+		float L_0 = __this->___m_Value;
+		XRSlider_SetSliderPosition_m868C3A5C8660AB80D6080F1C4B8CD26148070B02(__this, L_0, NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:139>
+		return;
+	}
+}
+// Method Definition Index: 77242
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSlider__ctor_m4D5345C4FC15B61BA1008ADFB187BA8D9EA97E78 (XRSlider_t3AB802BD5E80A8534A5BF9D2F710238AF3213E51* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:19>
+		__this->___m_Handle = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Handle), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:24>
+		__this->___m_Value = (0.5f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:28>
+		__this->___m_MaxPosition = (0.5f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:32>
+		__this->___m_MinPosition = (-0.5f);
+		//<source_info:C:/Users/msvieira/Documents/GitHub/AudioVisual_Congruence/My project/Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs:36>
+		ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD* L_0 = (ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD*)il2cpp_codegen_object_new(ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD_il2cpp_TypeInfo_var);
+		ValueChangeEvent__ctor_m36E0FB628F57A83BB57A575FD914FAA4C5CCABB4(L_0, NULL);
+		__this->___m_OnValueChange = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnValueChange), (void*)L_0);
+		il2cpp_codegen_runtime_class_init_inline(XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_il2cpp_TypeInfo_var);
+		XRBaseInteractable__ctor_m0BA492AFD3DCFBF74ED2FE4B513644F213CCACBF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77243
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueChangeEvent__ctor_m36E0FB628F57A83BB57A575FD914FAA4C5CCABB4 (ValueChangeEvent_t97011904F6BAB13C48427F4EB2F7F1EB924E2ACD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422(__this, UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 25865
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Interaction/Interactables/XRBaseInteractable.cs:413>
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_0 = __this->___m_SelectEntered;
+		return L_0;
+	}
+}
+// Method Definition Index: 25867
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Interaction/Interactables/XRBaseInteractable.cs:423>
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_0 = __this->___m_SelectExited;
+		return L_0;
+	}
+}
+// Method Definition Index: 25887
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRBaseInteractable_get_isSelected_mCD9FBF9693629EBAE7BB0556377A45420C4E4DC1_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Interaction/Interactables/XRBaseInteractable.cs:504>
+		bool L_0 = __this->___U3CisSelectedU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 54344
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 54329
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		V_0 = ((float)L_6);
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 54319
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this);
+		float L_1;
+		L_1 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_0, NULL);
+		V_0 = L_1;
+		float L_2 = V_0;
+		V_1 = (bool)((((float)L_2) > ((float)(9.99999975E-06f)))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this);
+		float L_5 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_4, L_5, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this = L_6;
+		goto IL_0038;
+	}
+
+IL_002d:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this = L_7;
+	}
+
+IL_0038:
+	{
+		return;
+	}
+}
+// Method Definition Index: 54433
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 54310
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 54435
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 54436
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 54444
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_InverseLerp_mBD7EC6A7173CE082226077E1557D5BC2D2AE0D9D_inline (float ___0_a, float ___1_b, float ___2_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		V_0 = (bool)((((int32_t)((((float)L_0) == ((float)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		float L_3 = ___2_value;
+		float L_4 = ___0_a;
+		float L_5 = ___1_b;
+		float L_6 = ___0_a;
+		float L_7;
+		L_7 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)il2cpp_codegen_subtract(L_3, L_4))/((float)il2cpp_codegen_subtract(L_5, L_6)))), NULL);
+		V_1 = L_7;
+		goto IL_0023;
+	}
+
+IL_001b:
+	{
+		V_1 = (0.0f);
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		float L_8 = V_1;
+		return L_8;
+	}
+}
+// Method Definition Index: 54437
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_LerpUnclamped_mF35042F9D25A221BDD4B3FD6251224610AFC1F35_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_3))));
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 54432
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_f;
+		if ((((float)L_0) >= ((float)(0.0f))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		G_B3_0 = (-1.0f);
+		goto IL_0015;
+	}
+
+IL_0010:
+	{
+		G_B3_0 = (1.0f);
+	}
+
+IL_0015:
+	{
+		V_0 = G_B3_0;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 54195
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline (const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (1.0f), (0.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 54347
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___0_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___0_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___0_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 54343
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 54346
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 54320
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 54379
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___0_x;
+		float L_1 = ___1_y;
+		float L_2 = ___2_z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), L_0, L_1, L_2, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_3, (0.0174532924f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
+		L_5 = Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E(L_4, NULL);
+		V_0 = L_5;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 54338
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 54197
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (0.0f), (0.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 25857
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* XRBaseInteractable_get_hoverEntered_m1CB558A7FA4272B1BF48908D5B7EDE21183538D0_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Interaction/Interactables/XRBaseInteractable.cs:373>
+		HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* L_0 = __this->___m_HoverEntered;
+		return L_0;
+	}
+}
+// Method Definition Index: 25859
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* XRBaseInteractable_get_hoverExited_m29ADA63D5D840CF95963EFD454E48045CDC009F1_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Interaction/Interactables/XRBaseInteractable.cs:383>
+		HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* L_0 = __this->___m_HoverExited;
+		return L_0;
+	}
+}
+// Method Definition Index: 54416
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) < ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 54418
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 54334
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 9202
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->____currentValue;
+		return L_0;
+	}
+}
+// Method Definition Index: 54328
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_vector;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_vector;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_vector;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_vector;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_vector;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_vector;
+		float L_11 = L_10.___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_12;
+		L_12 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))))));
+		V_0 = ((float)L_12);
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		float L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 54348
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)(L_1/L_2)), ((float)(L_4/L_5)), ((float)(L_7/L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 54161
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		return;
+	}
+}
+// Method Definition Index: 54318
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
+		float L_1;
+		L_1 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_0, NULL);
+		V_0 = L_1;
+		float L_2 = V_0;
+		V_1 = (bool)((((float)L_2) > ((float)(9.99999975E-06f)))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_value;
+		float L_5 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_4, L_5, NULL);
+		V_2 = L_6;
+		goto IL_0026;
+	}
+
+IL_001e:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_2 = L_7;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_2;
+		return L_8;
+	}
+}

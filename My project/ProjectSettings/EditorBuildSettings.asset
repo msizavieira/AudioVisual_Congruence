@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/SceneSelector.unity
+    guid: 770469b71ab157c4cbac24ea29eeea09
+  - enabled: 1
+    path: Assets/Scenes/CongruentMaze.unity
+    guid: 480aea10cb66a4c4590ed82156095f16
+  - enabled: 1
+    path: Assets/Scenes/IncongruentMaze.unity
+    guid: b6065dbce8911cb46af0d39e7217dd63
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: efb7b87eb8ecd9d46b3a0351222f323f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fba6072275013e6448e381f83d131b7f, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 350903f89dc8a5541982409ba7c51fb9, type: 2}
   m_UseUCBPForAssetBundles: 0
