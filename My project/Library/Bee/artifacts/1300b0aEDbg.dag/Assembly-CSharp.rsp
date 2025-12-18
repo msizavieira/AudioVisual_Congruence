@@ -486,9 +486,6 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Compass System/Scripts/Compass.cs"
 "Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs"
-"Assets/MazeCell.cs"
-"Assets/NewMazeScript copy.cs"
-"Assets/NewMazeScript.cs"
 "Assets/Scripts/AudioOcclusion.cs"
 "Assets/Scripts/AudioOcclusionMovingObject.cs"
 "Assets/Scripts/ConditionManager.cs"
@@ -498,10 +495,12 @@
 "Assets/Scripts/FirstPersonOcclusion.cs"
 "Assets/Scripts/LandmarkAudioManager.cs"
 "Assets/Scripts/LiveMazeDebug.cs"
+"Assets/Scripts/MazeCell.cs"
 "Assets/Scripts/MazePathRecorder.cs"
+"Assets/Scripts/MazeScriptFinal.cs"
+"Assets/Scripts/NewMazeScript.cs"
 "Assets/Scripts/OpenEnding.cs"
 "Assets/Scripts/SceneSelector.cs"
-"Assets/TutorialInfo/Scripts/Readme.cs"
 "Assets/WaterRipple.cs"
 -langversion:9.0
 /deterministic
